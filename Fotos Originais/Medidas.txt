@@ -1,0 +1,16 @@
+TK-3000
+MA IO4
+
+A medida exata da PCB é de 239mm X 239mm
+
+Fonte Willian via facebook, whatsapp
+
+----------------------------------------------------
+
+Trilhas de 10 mil = 0.254 mm - fiz com 0.30mm
+
+Pads 1.60 x 0.80 mm
+
+Vias 1.40 x 0.60 mm 
+
+Vias alimentacao 1.80 x 0.60

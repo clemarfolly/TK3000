@@ -1,0 +1,199 @@
+(footprint "Resistor_P12.70mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+	(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
+	(property "Reference" "REF**"
+		(at 1.0075 -8.035 0)
+		(layer "F.SilkS")
+		(uuid "c05997ac-45a7-40a6-8972-1b291156e2db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Resistor_P12.70mm_Horizontal"
+		(at 5.588 10.795 0)
+		(layer "F.Fab")
+		(uuid "d37431b8-977e-4e28-b557-a80d5a6e8b62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec74104e-d789-4dcc-96a9-49cd598fe952")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56142540-29c9-4857-8448-dc32e6d57c03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.6435 2.175098)
+		(end -0.0085 2.5695)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b625db80-3519-4a0f-9599-d6c20863d15c")
+	)
+	(fp_line
+		(start -0.0085 -4.987)
+		(end -0.0085 -2.32)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a398566a-3efb-499a-a9a6-9e42d0dcd5f9")
+	)
+	(fp_line
+		(start -0.0085 -2.32)
+		(end 0.7535 -1.812)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f73fde0-e500-4d55-b294-e16373541e16")
+	)
+	(fp_line
+		(start -0.0085 2.5695)
+		(end -0.0085 5.681)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fef64de0-106e-4976-8f3f-e4ec566359a9")
+	)
+	(fp_line
+		(start 0.7535 -1.812)
+		(end -0.66719 -0.9865)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "307e2298-1e3a-442f-9cd8-4a9ba6a07484")
+	)
+	(fp_line
+		(start 0.765345 -0.19275)
+		(end -0.66719 -0.9865)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38f27819-7206-45c5-bf9f-98927c81daed")
+	)
+	(fp_line
+		(start 0.765345 -0.19275)
+		(end -0.655345 0.56925)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4cd86a9-50c8-4556-b1a2-085b7cdd2766")
+	)
+	(fp_line
+		(start 0.765345 1.363)
+		(end -0.655345 0.56925)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d4090ae-f287-42ff-9898-799eac382848")
+	)
+	(fp_line
+		(start 0.765345 1.363)
+		(end -0.6435 2.176397)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c9f29ae-c805-43c0-b212-42cd8d1be8ed")
+	)
+	(fp_rect
+		(start -0.906 -7.053)
+		(end 0.889 7.747)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2df15a08-fff6-4cde-92f7-5534ad73015d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1185 0.601 90)
+		(layer "F.Fab")
+		(uuid "94d5a472-c2d1-4e0a-a7af-fde80a9fe03e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.0085 -6.003 270)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1931957f-7a55-4236-ad85-7d1c468c9244")
+	)
+	(pad "2" thru_hole circle
+		(at -0.0085 6.697 270)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53638e78-605a-44ef-9edb-886a8e13a3f5")
+	)
+	(group ""
+		(uuid "04520e86-aa51-4efc-84e8-1c6d625a9102")
+		(members "1931957f-7a55-4236-ad85-7d1c468c9244" "53638e78-605a-44ef-9edb-886a8e13a3f5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.step"
+		(offset
+			(xyz 0 -6.65 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

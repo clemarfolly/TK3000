@@ -640,6 +640,10 @@
     [
       "12cba11f-a914-4a6a-8e77-4856f6513f0b",
       "Root"
+    ],
+    [
+      "8c52bed7-6241-4139-b05c-0297ba221d02",
+      "Power and Decoupling Caps"
     ]
   ],
   "text_variables": {}

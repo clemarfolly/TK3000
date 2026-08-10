@@ -4874,18 +4874,18 @@
 		)
 		(symbol "74LS125_F1_5_1"
 			(rectangle
-				(start -2.54 5.08)
-				(end 2.54 -5.08)
+				(start -3.81 7.62)
+				(end 3.81 -7.62)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin power_out line
-				(at 0 7.62 270)
+				(at 0 10.16 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -4903,7 +4903,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -7.62 90)
+				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -16953,7 +16953,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)

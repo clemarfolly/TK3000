@@ -1,4 +1,4 @@
-27272032023563838
+27380290469852052
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100856,6 +100856,13 @@ C Disc series Radial pin pitch 5.00mm diameter 4.3mm width 1.9mm Capacitor
 2
 2
 TK3000
+C_Disc_5.08_12.7mm
+C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 5.00mm diameter 4.7mm width 2.5mm Capacitor
+0
+3
+2
+TK3000
 DIP-14_W7.62mm
 14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
 THT DIP DIL PDIP 2.54mm 7.62mm 300mil
@@ -100897,6 +100904,13 @@ THT DIP DIL PDIP 2.54mm 15.24mm 600mil
 0
 40
 40
+TK3000
+D_5.08
+
+
+0
+2
+2
 TK3000
 GAME_IO
 16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)

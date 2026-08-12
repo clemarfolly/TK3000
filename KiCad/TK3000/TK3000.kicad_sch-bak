@@ -19866,12 +19866,6 @@
 		(uuid "27d37e5f-dcf9-4f13-8815-db44984c3f16")
 	)
 	(junction
-		(at 528.32 250.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2828c6b8-f2fc-45c0-9573-43dfb0fea726")
-	)
-	(junction
 		(at 181.61 445.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -36382,7 +36376,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 250.19) (xy 528.32 250.19)
+			(xy 509.27 250.19) (xy 553.72 250.19)
 		)
 		(stroke
 			(width 0)
@@ -36522,16 +36516,6 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 250.19) (xy 553.72 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3263aa4-90f0-4def-a7e7-4a4140e84276")
-	)
-	(wire
-		(pts
 			(xy 613.41 214.63) (xy 621.03 214.63)
 		)
 		(stroke
@@ -36659,16 +36643,6 @@
 			(type default)
 		)
 		(uuid "d528f4f1-e742-4246-9147-4212e69ccc2e")
-	)
-	(wire
-		(pts
-			(xy 528.32 250.19) (xy 528.32 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5596b18-1b40-4a16-aaeb-9e9bf943e769")
 	)
 	(bus
 		(pts
@@ -130619,9 +130593,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1a0852d5-71ce-4db6-80b1-8ff55f8c766c")
 		(property "Reference" "UF7"
-			(at 486.156 398.526 0)
+			(at 489.8233 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)

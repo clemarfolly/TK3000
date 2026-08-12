@@ -375,6 +375,381 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TK3000:74LS74_C13"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LS74_C13"
+				(at -7.62 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "74xx/74hc_hct74.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual D Flip-flop, Set & Reset"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL DFF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LS74_C13_1_0"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~{S}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS74_C13_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LS74_C13_2_0"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~{S}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS74_C13_2_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LS74_C13_3_0"
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS74_C13_3_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TK3000:Capacitor"
 			(pin_numbers
 				(hide yes)
@@ -743,6 +1118,12 @@
 		)
 	)
 	(junction
+		(at 64.77 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7de4b1e5-1277-4c2b-afed-8aebb7cefa65")
+	)
+	(junction
 		(at 130.81 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -753,6 +1134,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8347f324-812b-48ba-a56c-be57b730da09")
+	)
+	(junction
+		(at 64.77 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f980257e-0b18-4c45-8874-bf62134d33b6")
 	)
 	(wire
 		(pts
@@ -776,6 +1163,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 25.4) (xy 64.77 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b175417-d515-402b-a206-62f6841ac4d8")
+	)
+	(wire
+		(pts
 			(xy 138.43 43.18) (xy 138.43 50.8)
 		)
 		(stroke
@@ -793,6 +1190,46 @@
 			(type default)
 		)
 		(uuid "6b34907a-feaa-45d2-99ca-98283987a97e")
+	)
+	(wire
+		(pts
+			(xy 64.77 46.99) (xy 64.77 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c4981b-da73-4241-88dc-6af1d80fc29c")
+	)
+	(wire
+		(pts
+			(xy 72.39 38.1) (xy 72.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d203f361-53f0-4196-9513-67f27579653b")
+	)
+	(wire
+		(pts
+			(xy 72.39 33.02) (xy 72.39 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1ef5ff-2e9d-4e9e-b1f9-c50fbcb4fd60")
+	)
+	(wire
+		(pts
+			(xy 64.77 45.72) (xy 72.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c5c7f7-f39d-44d8-bf67-da60900678d8")
 	)
 	(wire
 		(pts
@@ -940,6 +1377,111 @@
 		)
 	)
 	(symbol
+		(lib_id "TK3000:74LS74_C13")
+		(at 64.77 35.56 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22fccb82-f9a6-4300-9a30-30c6631b2653")
+		(property "Reference" "UC13"
+			(at 61.722 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS74_C13"
+			(at 67.564 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TK3000:DIP-14_W7.62mm"
+			(at 64.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "74xx/74hc_hct74.pdf"
+			(at 64.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 64.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "a6a074ed-ffac-43f8-aabe-fcc4f821f92f")
+		)
+		(pin "2"
+			(uuid "ea59db31-a0de-49ef-8573-103d89d30fa7")
+		)
+		(pin "5"
+			(uuid "0e8cbcb9-ea6e-4dcc-83a4-d53456ef1d78")
+		)
+		(pin "13"
+			(uuid "a2eeff10-c578-4bcf-875d-fddb2f096d41")
+		)
+		(pin "8"
+			(uuid "57917563-0de9-49a7-8aa8-b30375f7e1c0")
+		)
+		(pin "1"
+			(uuid "52bb8e3a-10d0-4369-afbe-46259696cbfe")
+		)
+		(pin "6"
+			(uuid "fffb2a1d-fc39-4776-8b78-efddb3263c19")
+		)
+		(pin "11"
+			(uuid "e1a3a0fd-6c53-4d8d-abbe-11c79dfe52a9")
+		)
+		(pin "9"
+			(uuid "b61ffe25-3b11-44a2-88db-4871646266e2")
+		)
+		(pin "4"
+			(uuid "f76bb7ad-ed5c-4592-967e-8de2161ec343")
+		)
+		(pin "7"
+			(uuid "97399344-d35b-427f-927b-1a7411a0db9b")
+		)
+		(pin "3"
+			(uuid "f390da12-10ba-4a60-8a66-972469aa5ac8")
+		)
+		(pin "10"
+			(uuid "8e62e957-39ac-41ab-9fab-884c04e686e5")
+		)
+		(pin "14"
+			(uuid "39d30897-c44e-4171-98e5-474128e63e38")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "UC13")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TK3000:74LS125_F1")
 		(at 130.81 40.64 0)
 		(mirror y)
@@ -1045,6 +1587,76 @@
 		)
 	)
 	(symbol
+		(lib_id "TK3000:Capacitor")
+		(at 72.39 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c95c1ed-9236-4414-8100-2f9dcdd17eb2")
+		(property "Reference" "C113"
+			(at 74.93 34.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 74.93 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TK3000:C_Disc_5.08"
+			(at 72.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d32c31b9-bedb-4b64-842e-7dbf13cb534f")
+		)
+		(pin "2"
+			(uuid "2454d5c5-ad33-4110-94f2-a5bf82ed8a80")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "C113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 130.81 30.48 0)
 		(unit 1)
@@ -1104,6 +1716,136 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be731961-29d6-4bd2-93ed-26d0747e8e10")
+		(property "Reference" "#PWR058"
+			(at 64.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 61.722 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4c2f3aa-e7a2-4f28-be0c-f910cca90eda")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 64.77 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c166f855-9a21-4d2a-adec-9806cc6ffa8c")
+		(property "Reference" "#PWR059"
+			(at 64.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 64.77 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 64.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ba3b8f-9755-4874-aef1-e49e3b16973a")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)

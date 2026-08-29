@@ -1,4 +1,4 @@
-27385706676360121
+27437586231449253
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100849,6 +100849,27 @@ Logo WEEE
 0
 0
 TK3000
+BC548
+TO-92 leads molded, wide, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+TK3000
+BC558
+TO-92 leads molded, wide, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+TK3000
+BF494
+TO-92 leads molded, wide, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+TK3000
 C_Disc_5.08
 C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
 C Disc series Radial pin pitch 5.00mm diameter 4.3mm width 1.9mm Capacitor
@@ -100861,6 +100882,20 @@ C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.7*2.5mm^2, Capacitor,
 C Disc series Radial pin pitch 5.00mm diameter 4.7mm width 2.5mm Capacitor
 0
 3
+2
+TK3000
+C_Disc_12.7mm
+C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 5.00mm diameter 4.7mm width 2.5mm Capacitor
+0
+2
+2
+TK3000
+C_Disc_C100
+
+
+0
+2
 2
 TK3000
 C_Elet_2.54
@@ -100876,6 +100911,27 @@ CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Ca
 0
 2
 2
+TK3000
+C_Elet_C110
+
+
+0
+2
+2
+TK3000
+C_Elet_Tipo2
+CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor
+0
+2
+2
+TK3000
+DB9
+
+
+0
+18
+9
 TK3000
 DIP-14_W7.62mm
 14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
@@ -100933,12 +100989,75 @@ D_12.7
 2
 2
 TK3000
+D_D18
+
+
+0
+2
+2
+TK3000
+EarJack
+
+
+0
+3
+2
+TK3000
 GAME_IO
 16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
 THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 0
 16
 16
+TK3000
+Ind
+
+
+0
+2
+2
+TK3000
+Ind_762
+
+
+0
+3
+2
+TK3000
+J13
+
+
+0
+4
+4
+TK3000
+J14
+
+
+0
+7
+7
+TK3000
+J16
+
+
+0
+11
+11
+TK3000
+J17
+
+
+0
+34
+34
+TK3000
+J18
+
+
+0
+2
+2
 TK3000
 Jumper_Aberto
 SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
@@ -100953,6 +101072,20 @@ net tie solder jumper bridged
 0
 2
 2
+TK3000
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+2
+2
+TK3000
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
 TK3000
 RAM_F12-13
 18-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
@@ -100974,6 +101107,20 @@ THT DIP DIL PDIP 2.54mm 15.24mm 600mil
 0
 56
 31
+TK3000
+Res_20.32
+
+
+0
+2
+2
+TK3000
+Resistor_P2.54mm_Vertical
+Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Vertical pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm
+0
+2
+2
 TK3000
 Resistor_P5.08mm_Vertical
 Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
@@ -101009,6 +101156,62 @@ test point wire loop bead
 0
 1
 1
+TK3000
+UG1_DIP-20_W7.62mm
+20-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+20
+20
+TK3000
+UH4_DIP-40_W15.24mm
+40-lead though-hole mounted DIP package, row spacing 15.24mm (600 mils)
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil
+0
+40
+40
+TK3000
+X24
+
+
+0
+2
+2
+TK3000
+XTAL
+
+
+0
+2
+2
+TK3000
+led1
+
+
+0
+2
+2
+TK3000
+led2
+
+
+0
+2
+2
+TK3000
+plano_terra_f
+Converted using: svg2mod -v -i 'c:\Users\Wozniak\Desktop\TK3000\frente_plano_gnd_final.svg' -o 'c:\Users\Wozniak\Desktop\TK3000\plano_terra_f.mod' --force Dwgs.User
+svg2mod
+0
+0
+0
+TK3000
+plano_terra_f_esq
+Converted using: svg2mod -v -i 'c:\Users\Wozniak\Desktop\TK3000\frente_plano_gnd_final_esq.svg' -o 'c:\Users\Wozniak\Desktop\TK3000\plano_terra_f_esq' --force Dwgs.User
+svg2mod
+0
+0
+0
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu

@@ -92,70 +92,6 @@
 		(layer "F.SilkS")
 		(uuid "653f158d-5ae4-4e24-a0bd-116622fe8499")
 	)
-	(fp_line
-		(start 0.029035 -0.944553)
-		(end 5.050965 -0.944553)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "d568b38f-2c8b-4795-82fe-b0dc8708fbcb")
-	)
-	(fp_line
-		(start 5.050965 0.944554)
-		(end 0.029034 0.944553)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "71a7ed6f-c08d-47f1-9cea-c08e431a154f")
-	)
-	(fp_arc
-		(start -0.940965 0.025447)
-		(mid -0.656859 -0.660447)
-		(end 0.029035 -0.944553)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "93c8f5ac-bb4e-4289-a36d-f4f705f2a934")
-	)
-	(fp_arc
-		(start 0.029035 0.944553)
-		(mid -0.656859 0.660447)
-		(end -0.940965 -0.025447)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "b3b16423-e218-4e33-9c5c-afd3df8e4b32")
-	)
-	(fp_arc
-		(start 5.050965 -0.944553)
-		(mid 5.736859 -0.660447)
-		(end 6.020965 0.025447)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "5e5fa752-0886-4c63-a8a2-7b9b41a9ac30")
-	)
-	(fp_arc
-		(start 6.020965 -0.025447)
-		(mid 5.736859 0.660447)
-		(end 5.050965 0.944553)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "00f3d775-2418-409b-8d28-fc6e14371f85")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 2.5 0 0)
 		(layer "F.Fab")
@@ -196,13 +132,6 @@
 	(group ""
 		(uuid "713ad968-03ae-44be-987a-3c4eeae00865")
 		(members "01ab7792-c6f4-47e6-ba51-46f0134cbadc" "e930546c-1111-4b25-81cf-4da41ef51dd1")
-	)
-	(group ""
-		(uuid "f7ebcbca-cfe7-49e5-a5dd-ae04ddba8346")
-		(members "00f3d775-2418-409b-8d28-fc6e14371f85" "5e5fa752-0886-4c63-a8a2-7b9b41a9ac30"
-			"71a7ed6f-c08d-47f1-9cea-c08e431a154f" "93c8f5ac-bb4e-4289-a36d-f4f705f2a934"
-			"b3b16423-e218-4e33-9c5c-afd3df8e4b32" "d568b38f-2c8b-4795-82fe-b0dc8708fbcb"
-		)
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D4.3mm_W1.9mm_P5.00mm.step"

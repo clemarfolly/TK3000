@@ -148,26 +148,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 1.55 4.425)
-		(end 1.55 2.939967)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "06a82633-f21c-480c-b357-fdc177d06d3b")
-	)
-	(fp_line
-		(start 2.292516 3.682484)
-		(end 0.807483 3.682484)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "6e431667-0e7f-4476-bc55-e794207a1c01")
-	)
-	(fp_line
 		(start 6.24528 0.369595)
 		(end 8.16528 0.369595)
 		(stroke
@@ -256,6 +236,19 @@
 		)
 		(layer "F.SilkS")
 		(uuid "e221a741-3a38-4d21-80ba-a9f50e9ea4fe")
+	)
+	(fp_text user "+"
+		(at 0.2 4.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "959e8de6-e382-4c1b-8937-b8efa03fe8e2")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" thru_hole roundrect
 		(at 1.25 1.25 90)

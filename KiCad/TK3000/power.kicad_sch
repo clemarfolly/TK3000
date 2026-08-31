@@ -2274,7 +2274,7 @@
 						(type background)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
 					(name "VCC"
@@ -2292,7 +2292,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -10.16 90)
 					(length 2.54)
 					(name "GND"
@@ -3378,7 +3378,7 @@
 					)
 				)
 				(pin input clock
-					(at -7.62 0 0)
+					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "C"
 						(effects
@@ -3396,25 +3396,7 @@
 					)
 				)
 				(pin input line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "~{S}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
+					(at -1.27 7.62 270)
 					(length 2.54)
 					(name "~{R}"
 						(effects
@@ -3424,6 +3406,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 7.62 270)
+					(length 2.54)
+					(name "~{S}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3482,26 +3482,8 @@
 				)
 			)
 			(symbol "74LS74_C13_2_0"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input clock
-					(at -7.62 0 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "C"
 						(effects
@@ -3511,6 +3493,24 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3557,14 +3557,14 @@
 				(pin output line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "Q"
+					(name "~{Q}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3575,14 +3575,14 @@
 				(pin output line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "~{Q}"
+					(name "Q"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3858,43 +3858,7 @@
 			)
 			(symbol "74LS74_E11_2_0"
 				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 7.62 270)
+					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "~{S}"
 						(effects
@@ -3911,17 +3875,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -7.62 90)
+				(pin input clock
+					(at -2.54 7.62 270)
 					(length 2.54)
-					(name "~{R}"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3930,7 +3894,25 @@
 					)
 				)
 				(pin output line
-					(at 7.62 2.54 180)
+					(at -1.27 -7.62 90)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 1.27 -7.62 90)
 					(length 2.54)
 					(name "Q"
 						(effects
@@ -3947,17 +3929,35 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 -2.54 180)
+				(pin input line
+					(at 3.81 7.62 270)
 					(length 2.54)
-					(name "~{Q}"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7359,7 +7359,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:Capacitor")
-		(at 236.22 58.42 0)
+		(at 219.71 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7367,7 +7367,7 @@
 		(dnp no)
 		(uuid "0893503f-9a3c-47a3-9328-ba620b1f35fa")
 		(property "Reference" "C85"
-			(at 238.506 57.15 0)
+			(at 221.996 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7376,7 +7376,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 238.506 59.69 0)
+			(at 221.996 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7385,7 @@
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_12.7mm"
-			(at 236.22 58.42 0)
+			(at 219.71 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +7394,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 58.42 0)
+			(at 219.71 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,7 +7403,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 236.22 58.42 0)
+			(at 219.71 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7509,7 +7509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 179.07 69.088 0)
 			(effects
 				(font
@@ -7639,7 +7639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 130.81 67.818 0)
 			(effects
 				(font
@@ -8057,7 +8057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TK3000:C_Disc_5.08_12.7mm"
+		(property "Footprint" "TK3000:C65_Disc_5.08_12.7mm"
 			(at 86.36 116.84 0)
 			(effects
 				(font
@@ -8252,7 +8252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 209.55 69.088 0)
 			(effects
 				(font
@@ -8317,7 +8317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 210.82 36.068 0)
 			(effects
 				(font
@@ -8516,7 +8516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 27.94 170.688 0)
 			(effects
 				(font
@@ -9694,7 +9694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 109.22 67.818 0)
 			(effects
 				(font
@@ -9870,7 +9870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 78.74 102.87 0)
 			(effects
 				(font
@@ -10383,7 +10383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TK3000:DIP-14_W7.62mm"
+		(property "Footprint" "TK3000:UE11_DIP-14_W7.62mm"
 			(at 78.74 116.84 0)
 			(effects
 				(font
@@ -10609,7 +10609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 250.19 86.868 0)
 			(effects
 				(font
@@ -10674,7 +10674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 260.35 86.868 0)
 			(effects
 				(font
@@ -10809,7 +10809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 179.07 36.068 0)
 			(effects
 				(font
@@ -11009,7 +11009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 240.03 86.868 0)
 			(effects
 				(font
@@ -11074,7 +11074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 55.88 134.62 0)
 			(effects
 				(font
@@ -11148,7 +11148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TK3000:DIP-14_W7.62mm"
+		(property "Footprint" "TK3000:UE9_DIP-14_W7.62mm"
 			(at 57.15 116.84 0)
 			(effects
 				(font
@@ -11513,7 +11513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 101.6 137.16 0)
 			(effects
 				(font
@@ -11578,7 +11578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 219.71 86.868 0)
 			(effects
 				(font
@@ -11692,7 +11692,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 60.96 0)
+		(at 231.14 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11700,7 +11700,7 @@
 		(dnp no)
 		(uuid "4cc1d9c9-8918-4711-aad0-2da9956ac00e")
 		(property "Reference" "#PWR0280"
-			(at 247.65 67.31 0)
+			(at 231.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11709,7 +11709,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 64.77 0)
+			(at 231.14 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11717,7 +11717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 60.96 0)
+			(at 231.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11726,7 +11726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 60.96 0)
+			(at 231.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11735,7 +11735,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 60.96 0)
+			(at 231.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11927,6 +11927,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 246.38 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fd50575-d636-487d-83e3-6c204b4b5e72")
+		(property "Reference" "#PWR0324"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 246.38 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 246.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "626db448-533e-4094-9c56-c896e9846f10")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "#PWR0324")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TK3000:Capacitor")
 		(at 189.23 41.91 0)
 		(unit 1)
@@ -12078,7 +12143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 260.35 52.578 0)
 			(effects
 				(font
@@ -12338,7 +12403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 57.15 102.87 0)
 			(effects
 				(font
@@ -13007,7 +13072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 209.55 86.868 0)
 			(effects
 				(font
@@ -13072,7 +13137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 107.95 101.6 0)
 			(effects
 				(font
@@ -13137,7 +13202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 242.57 36.068 0)
 			(effects
 				(font
@@ -13244,6 +13309,141 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
 					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TK3000:Capacitor")
+		(at 246.38 58.42 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "641217c9-f6ab-4201-952f-cc2bc900ef42")
+		(property "Reference" "C88"
+			(at 248.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 248.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TK3000:C_Disc_12.7mm"
+			(at 246.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 246.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e7c59fe-7a98-4145-822b-873678d4e6e0")
+		)
+		(pin "2"
+			(uuid "7190c215-caf4-4dbd-967d-b2a3c71dc627")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6611e347-adf7-46e5-b331-d4b80aa355b3")
+		(property "Reference" "#PWR0325"
+			(at 246.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c840911-3374-4d96-8d29-ba3d3872bb3e")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)
@@ -13372,7 +13572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 120.65 67.818 0)
 			(effects
 				(font
@@ -13705,7 +13905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 204.47 108.458 0)
 			(effects
 				(font
@@ -13770,7 +13970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 27.94 136.398 0)
 			(effects
 				(font
@@ -13965,7 +14165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 142.24 67.818 0)
 			(effects
 				(font
@@ -14095,7 +14295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 168.91 108.458 0)
 			(effects
 				(font
@@ -14160,7 +14360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 270.51 86.868 0)
 			(effects
 				(font
@@ -14555,7 +14755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 189.23 69.088 0)
 			(effects
 				(font
@@ -14620,7 +14820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 189.23 36.068 0)
 			(effects
 				(font
@@ -14731,6 +14931,75 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
 					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TK3000:Capacitor")
+		(at 222.25 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "879633c1-88fa-43da-8ebd-4cbb05527755")
+		(property "Reference" "C69"
+			(at 224.282 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 224.282 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TK3000:C_Disc_5.08_12.7mm"
+			(at 222.25 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 222.25 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce552f3b-adbe-4ed7-ad4e-044ee5255816")
+		)
+		(pin "2"
+			(uuid "1e23d72d-4d39-4d39-ba70-223bc27fbd60")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -15095,7 +15364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 199.39 69.088 0)
 			(effects
 				(font
@@ -15697,7 +15966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 125.73 137.16 0)
 			(effects
 				(font
@@ -15946,7 +16215,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 60.96 0)
+		(at 219.71 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15954,7 +16223,7 @@
 		(dnp no)
 		(uuid "96aa6e65-082c-42c1-b4ed-e2137a92d87b")
 		(property "Reference" "#PWR0282"
-			(at 236.22 67.31 0)
+			(at 219.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15963,7 +16232,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 64.77 0)
+			(at 219.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15971,7 +16240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 60.96 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15980,7 +16249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 60.96 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15989,7 +16258,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 60.96 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16092,7 +16361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 200.66 36.068 0)
 			(effects
 				(font
@@ -16644,7 +16913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TK3000:DIP-14_W7.62mm"
+		(property "Footprint" "TK3000:UE10_DIP-14_W7.62mm"
 			(at 107.95 115.57 0)
 			(effects
 				(font
@@ -16859,7 +17128,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 247.65 55.88 0)
+		(at 231.14 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16867,7 +17136,7 @@
 		(dnp no)
 		(uuid "a327af80-a973-4d60-8f2e-bdf3201c672e")
 		(property "Reference" "#PWR0279"
-			(at 247.65 59.69 0)
+			(at 231.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16875,8 +17144,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
-			(at 247.65 52.578 0)
+		(property "Value" "+5V"
+			(at 231.14 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16884,7 +17153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 55.88 0)
+			(at 231.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16893,7 +17162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 55.88 0)
+			(at 231.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16902,7 +17171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 247.65 55.88 0)
+			(at 231.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18009,7 +18278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 193.04 108.458 0)
 			(effects
 				(font
@@ -18116,6 +18385,71 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
 					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 222.25 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c03aaa7a-d847-4cee-99b7-891e8dd17110")
+		(property "Reference" "#PWR0320"
+			(at 222.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 222.25 18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 222.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43ea29bf-26f2-4c1a-a704-c00dfefa7a93")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -18339,7 +18673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 27.94 103.378 0)
 			(effects
 				(font
@@ -18539,7 +18873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 49.53 18.288 0)
 			(effects
 				(font
@@ -18799,7 +19133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 179.07 18.288 0)
 			(effects
 				(font
@@ -19069,7 +19403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 229.87 86.868 0)
 			(effects
 				(font
@@ -19199,7 +19533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 77.47 137.16 0)
 			(effects
 				(font
@@ -19264,7 +19598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 210.82 18.288 0)
 			(effects
 				(font
@@ -19329,7 +19663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 199.39 86.868 0)
 			(effects
 				(font
@@ -19778,7 +20112,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 236.22 55.88 0)
+		(at 219.71 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19786,7 +20120,7 @@
 		(dnp no)
 		(uuid "dcd1b14e-a268-4d24-ba2d-0bd638dec982")
 		(property "Reference" "#PWR0281"
-			(at 236.22 59.69 0)
+			(at 219.71 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19794,8 +20128,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
-			(at 236.22 52.578 0)
+		(property "Value" "+5V"
+			(at 219.71 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19803,7 +20137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 55.88 0)
+			(at 219.71 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19812,7 +20146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 55.88 0)
+			(at 219.71 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19821,7 +20155,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 236.22 55.88 0)
+			(at 219.71 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19924,7 +20258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 143.51 108.458 0)
 			(effects
 				(font
@@ -20257,7 +20591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 220.98 36.068 0)
 			(effects
 				(font
@@ -20322,7 +20656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 99.06 67.818 0)
 			(effects
 				(font
@@ -21101,6 +21435,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 222.25 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e618841e-dc92-4e99-9b83-132e26ec6f93")
+		(property "Reference" "#PWR0321"
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18d96fad-43a6-41fd-9d74-58e5321bb3f3")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "#PWR0321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 232.41 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21252,7 +21651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 180.34 108.458 0)
 			(effects
 				(font
@@ -21317,7 +21716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 232.41 36.068 0)
 			(effects
 				(font
@@ -21652,7 +22051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 156.21 108.458 0)
 			(effects
 				(font
@@ -22036,7 +22435,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:Capacitor")
-		(at 247.65 58.42 0)
+		(at 231.14 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22044,7 +22443,7 @@
 		(dnp no)
 		(uuid "f4611ff8-1745-4167-b20e-003fca4d8210")
 		(property "Reference" "C86"
-			(at 249.936 57.15 0)
+			(at 233.426 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22053,7 +22452,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 249.936 59.69 0)
+			(at 233.426 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22062,7 +22461,7 @@
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08_12.7mm"
-			(at 247.65 58.42 0)
+			(at 231.14 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22071,7 +22470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 58.42 0)
+			(at 231.14 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22080,7 +22479,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 247.65 58.42 0)
+			(at 231.14 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22581,7 +22980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 200.66 18.288 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-27437586231449253
+27459072491600826
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100870,6 +100870,13 @@ to-92 sc-43 sc-43a sot54 PA33 transistor
 3
 3
 TK3000
+C65_Disc_5.08_12.7mm
+C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 5.00mm diameter 4.7mm width 2.5mm Capacitor
+0
+3
+2
+TK3000
 C_Disc_5.08
 C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
 C Disc series Radial pin pitch 5.00mm diameter 4.3mm width 1.9mm Capacitor
@@ -101024,6 +101031,13 @@ Ind_762
 3
 2
 TK3000
+J12
+
+
+0
+1
+1
+TK3000
 J13
 
 
@@ -101053,6 +101067,20 @@ J17
 34
 TK3000
 J18
+
+
+0
+2
+2
+TK3000
+JP12
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips
+net tie solder jumper bridged
+0
+2
+2
+TK3000
+Jumper_2_Open
 
 
 0
@@ -101100,6 +101128,13 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 0
 128
 30
+TK3000
+RCA_AV-8,4-5A
+
+
+0
+3
+2
 TK3000
 ROM_F4-F6
 28-lead though-hole mounted DIP package, row spacing 15.24mm (600 mils)
@@ -101157,6 +101192,41 @@ test point wire loop bead
 1
 1
 TK3000
+UE4_DIP-16_W7.62mm
+16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+16
+16
+TK3000
+UE9_DIP-14_W7.62mm
+14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+14
+14
+TK3000
+UE10_DIP-14_W7.62mm
+14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+14
+14
+TK3000
+UE11_DIP-14_W7.62mm
+14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+14
+14
+TK3000
+UF7_DIP-28_W15.24mm
+28-lead though-hole mounted DIP package, row spacing 15.24mm (600 mils)
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil
+0
+28
+28
+TK3000
 UG1_DIP-20_W7.62mm
 20-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
 THT DIP DIL PDIP 2.54mm 7.62mm 300mil
@@ -101170,6 +101240,20 @@ THT DIP DIL PDIP 2.54mm 15.24mm 600mil
 0
 40
 40
+TK3000
+UH6_DIP-40_W15.24mm
+40-lead though-hole mounted DIP package, row spacing 15.24mm (600 mils)
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil
+0
+40
+40
+TK3000
+UH8_DIP-16_W7.62mm
+16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+16
+16
 TK3000
 X24
 

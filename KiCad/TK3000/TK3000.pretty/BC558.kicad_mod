@@ -11,8 +11,8 @@
 		(uuid "6606b60e-693b-46c0-b6e5-64ac2796463b")
 		(effects
 			(font
-				(face "Routed Gothic")
-				(size 1.6 1.6)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -107,7 +107,8 @@
 		(uuid "1cc62a6e-c260-4663-8881-f29bfe598f90")
 		(effects
 			(font
-				(size 1 1)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -120,7 +121,8 @@
 		(uuid "e3cc38bc-f47c-4874-8069-36fa27c91c0f")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -133,7 +135,8 @@
 		(uuid "7832b70b-8cef-4ced-b9ac-f1d5adb37942")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -272,8 +275,8 @@
 		(uuid "dee4e107-5e0f-4a6a-9046-01746a464199")
 		(effects
 			(font
-				(face "Routed Gothic")
-				(size 1.6 1.6)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -301,7 +304,8 @@
 		(uuid "a4ba959a-766c-40fa-af70-3aed2781adba")
 		(effects
 			(font
-				(size 1 1)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)

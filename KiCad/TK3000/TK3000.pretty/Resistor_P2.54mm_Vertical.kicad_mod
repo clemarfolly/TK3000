@@ -11,8 +11,8 @@
 		(uuid "182357cc-e09a-48b7-864e-c58d69b8e18e")
 		(effects
 			(font
-				(face "Routed Gothic")
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.3175)
 				(bold yes)
 			)
@@ -119,7 +119,8 @@
 		(uuid "df543f65-506a-44fe-b08c-3862670f272b")
 		(effects
 			(font
-				(size 1 1)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -131,7 +132,8 @@
 		(uuid "783cea0b-8d93-4dca-a568-70d644da2465")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -143,7 +145,8 @@
 		(uuid "23826986-ed37-4cd6-9cac-9ed98ef4c829")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -153,7 +156,7 @@
 		(start 0.92 0)
 		(end 1.66 0)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -163,7 +166,7 @@
 		(center 0 0)
 		(end 0.92 0)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(fill no)

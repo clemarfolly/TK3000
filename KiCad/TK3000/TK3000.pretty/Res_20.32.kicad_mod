@@ -9,8 +9,8 @@
 		(uuid "b41524e0-26e0-40d4-8aea-a52a46d20fe5")
 		(effects
 			(font
-				(face "Routed Gothic")
-				(size 1.6 1.6)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.32)
 				(bold yes)
 			)
@@ -119,7 +119,8 @@
 		(uuid "35375c4e-329a-4c8b-92be-a23fb0d3d3d6")
 		(effects
 			(font
-				(size 1.3 1.3)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -131,7 +132,8 @@
 		(uuid "3f727f8c-9c8e-4a34-b5a9-548d63ab53e1")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -143,7 +145,8 @@
 		(uuid "c56849d0-a287-4674-901b-a5245c372fb0")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -153,7 +156,7 @@
 		(start -0.76 -1.22)
 		(end 0.75 -2.03)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -163,7 +166,7 @@
 		(start -0.76 -1.22)
 		(end 0.76 -0.39)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -173,7 +176,7 @@
 		(start -0.72 0.42)
 		(end 0.76 -0.39)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -183,7 +186,7 @@
 		(start -0.2 -8.25)
 		(end -0.2 -2.67)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -193,7 +196,7 @@
 		(start -0.2 2.41)
 		(end -0.72 2.03)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -203,7 +206,7 @@
 		(start -0.2 8.26)
 		(end -0.2 2.41)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -213,7 +216,7 @@
 		(start 0.72 1.22)
 		(end -0.72 0.42)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -223,7 +226,7 @@
 		(start 0.72 1.22)
 		(end -0.72 2.03)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -233,7 +236,7 @@
 		(start 0.75 -2.03)
 		(end -0.2 -2.67)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")

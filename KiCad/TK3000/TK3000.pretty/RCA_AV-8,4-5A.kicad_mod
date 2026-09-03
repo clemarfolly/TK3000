@@ -10,7 +10,8 @@
 		(uuid "d91e3c66-eac4-4164-8943-c23213878765")
 		(effects
 			(font
-				(size 1 1)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -22,7 +23,8 @@
 		(uuid "2e5e4e71-abc4-46ee-a9c3-d25fe6990374")
 		(effects
 			(font
-				(size 1 1)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -34,7 +36,8 @@
 		(uuid "08559af5-e960-432a-80af-338de76b399e")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -46,7 +49,8 @@
 		(uuid "6c080c0c-7e09-4635-96e3-9e3bfd77cc68")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -56,7 +60,7 @@
 		(start -5.0292 1.8034)
 		(end -5.0254 -4.3942)
 		(stroke
-			(width 0.12)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -66,7 +70,7 @@
 		(start -5.0254 -4.3942)
 		(end 4.9746 -4.3942)
 		(stroke
-			(width 0.12)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -76,7 +80,7 @@
 		(start -4.1 -4.4)
 		(end -4.1 -5.4)
 		(stroke
-			(width 0.12)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -86,7 +90,7 @@
 		(start -2.921 5.6134)
 		(end 2.9972 5.6134)
 		(stroke
-			(width 0.12)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -96,7 +100,7 @@
 		(start 4.3 -4.4)
 		(end 4.3 -5.4)
 		(stroke
-			(width 0.12)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -106,7 +110,7 @@
 		(start 4.9708 1.8034)
 		(end 4.9746 -4.3942)
 		(stroke
-			(width 0.12)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")

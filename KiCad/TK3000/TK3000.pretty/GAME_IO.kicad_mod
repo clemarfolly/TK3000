@@ -11,7 +11,8 @@
 		(uuid "440f060b-3036-4534-ae33-f40dfc9d1a10")
 		(effects
 			(font
-				(size 1 1)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -22,7 +23,8 @@
 		(uuid "d74b2dc5-bc41-4e50-b388-65ef4f5b5e8f")
 		(effects
 			(font
-				(size 1 1)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -34,7 +36,8 @@
 		(uuid "46dd95b6-7b7f-4bb6-bebd-78238b0cddba")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -46,7 +49,8 @@
 		(uuid "8d9d5dd0-865d-4ba0-82a6-ca814e9c999f")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -56,7 +60,7 @@
 		(start -0.966604 -0.991219)
 		(end 8.582088 18.741327)
 		(stroke
-			(width 0.12)
+			(width 0.254)
 			(type default)
 		)
 		(fill no)
@@ -80,7 +84,8 @@
 		(uuid "6d3e44a9-47c8-477b-81da-428efa400348")
 		(effects
 			(font
-				(size 1 1)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)

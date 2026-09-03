@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "1168afdb-c32c-4026-bc8a-0e7138a193bc")
-	(paper "A4")
+	(paper "A1")
 	(lib_symbols
 		(symbol "TK3000:74LS00_F10"
 			(pin_names
@@ -9426,7 +9426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??uF"
+		(property "Value" "10uF"
 			(at 172.72 115.9509 0)
 			(effects
 				(font
@@ -10875,7 +10875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??uF"
+		(property "Value" "10uF"
 			(at 147.32 115.9509 0)
 			(effects
 				(font
@@ -12873,7 +12873,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??uF"
+		(property "Value" "10uF"
 			(at 196.85 115.9509 0)
 			(effects
 				(font
@@ -13550,6 +13550,76 @@
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
 					(reference "UF10")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TK3000:Capacitor_Eletrolitico")
+		(at 217.17 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6869a5b4-c139-4923-8438-93ca60eca86c")
+		(property "Reference" "C98"
+			(at 220.98 113.4109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "??uF"
+			(at 220.98 115.9509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TK3000:CP_Disc_5.08"
+			(at 218.1352 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 217.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90a149bb-c437-4854-80a5-0cd1e464cf5c")
+		)
+		(pin "1"
+			(uuid "bd90ca34-00c4-457f-9eda-7b79dbc3e6c0")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "C98")
+					(unit 1)
 				)
 			)
 		)
@@ -16614,6 +16684,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 217.17 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f4478be-1e1d-4313-8059-40ecf1c4a199")
+		(property "Reference" "#PWR0328"
+			(at 217.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e0adcfb-e7d0-4d4e-be39-96306fdfa795")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "#PWR0328")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 72.39 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17475,7 +17610,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??uF"
+		(property "Value" "10uF"
 			(at 184.15 115.9509 0)
 			(effects
 				(font
@@ -19775,6 +19910,71 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
 					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 217.17 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0d17e1b-31df-45b6-8a92-39daa96d8149")
+		(property "Reference" "#PWR0327"
+			(at 217.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 217.17 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 217.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7a56759-b515-4c9b-a0ff-e29c6cf00013")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b/8c52bed7-6241-4139-b05c-0297ba221d02"
+					(reference "#PWR0327")
 					(unit 1)
 				)
 			)

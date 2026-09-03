@@ -11,8 +11,8 @@
 		(uuid "c05997ac-45a7-40a6-8972-1b291156e2db")
 		(effects
 			(font
-				(face "Routed Gothic")
-				(size 1.8 1.8)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -118,7 +118,8 @@
 		(uuid "d37431b8-977e-4e28-b557-a80d5a6e8b62")
 		(effects
 			(font
-				(size 1 1)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -130,7 +131,8 @@
 		(uuid "ec74104e-d789-4dcc-96a9-49cd598fe952")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -142,7 +144,8 @@
 		(uuid "56142540-29c9-4857-8448-dc32e6d57c03")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -152,7 +155,7 @@
 		(start -0.6435 2.175098)
 		(end -0.0085 2.5695)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -162,7 +165,7 @@
 		(start -0.0085 -4.987)
 		(end -0.0085 -2.32)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -172,7 +175,7 @@
 		(start -0.0085 -2.32)
 		(end 0.7535 -1.812)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -182,7 +185,7 @@
 		(start -0.0085 2.5695)
 		(end -0.0085 5.681)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -192,7 +195,7 @@
 		(start 0.7535 -1.812)
 		(end -0.66719 -0.9865)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -202,7 +205,7 @@
 		(start 0.765345 -0.19275)
 		(end -0.66719 -0.9865)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -212,7 +215,7 @@
 		(start 0.765345 -0.19275)
 		(end -0.655345 0.56925)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -222,7 +225,7 @@
 		(start 0.765345 1.363)
 		(end -0.655345 0.56925)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -232,7 +235,7 @@
 		(start 0.765345 1.363)
 		(end -0.6435 2.176397)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -255,7 +258,8 @@
 		(uuid "94d5a472-c2d1-4e0a-a7af-fde80a9fe03e")
 		(effects
 			(font
-				(size 1 1)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)

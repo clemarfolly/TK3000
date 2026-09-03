@@ -4,6 +4,15 @@
 	(generator_version "9.0")
 	(uuid "12cba11f-a914-4a6a-8e77-4856f6513f0b")
 	(paper "A1")
+	(title_block
+		(title "Microdigital TK 3000 IIe")
+		(date "2026-09-02")
+		(rev "0 - Beta")
+		(company "Clemar Folly Jr. - https://x.com/clemarfolly - https://facebook.com/clemarjr")
+		(comment 1 "Recriado Por")
+		(comment 2 "em breve")
+		(comment 3 "Disponível em")
+	)
 	(lib_symbols
 		(symbol "74LS74_C13_1"
 			(pin_names
@@ -143712,8 +143721,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 582.676 320.548 0)
+		(property "Value" "220R"
+			(at 584.708 320.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145514,14 +145523,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 184.15 451.6389 0)
+		(property "Value" "1k"
+			(at 180.594 455.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -149007,14 +149015,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 180.34 451.6389 0)
+		(property "Value" "1k"
+			(at 176.53 455.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -153621,13 +153628,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 523.2463 167.64 90)
+		(property "Value" "100nF"
+			(at 523.494 174.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -153755,12 +153761,11 @@
 			)
 		)
 		(property "Value" "1N914"
-			(at 533.908 170.434 0)
+			(at 530.606 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:D_D18"
@@ -153906,14 +153911,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 545.6189 167.64 0)
+		(property "Value" "75R"
+			(at 544.83 167.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P2.54mm_Vertical"
@@ -154714,14 +154718,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 370.84 234.4689 0)
+		(property "Value" "2k2"
+			(at 378.206 236.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -156441,13 +156444,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 547.37 167.6463 90)
+		(property "Value" "100nF"
+			(at 556.514 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_C100"
@@ -160010,14 +160012,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 384.81 384.3289 0)
+		(property "Value" "1k"
+			(at 383.794 385.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -160639,14 +160640,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 191.77 451.6389 0)
+		(property "Value" "1k"
+			(at 188.214 455.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -161180,7 +161180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1k"
 			(at 574.802 295.656 0)
 			(effects
 				(font
@@ -162827,14 +162827,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 218.44 118.8989 0)
+		(property "Value" "1k"
+			(at 224.536 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -164106,7 +164105,7 @@
 		(dnp no)
 		(uuid "99f120c3-1d41-49d3-9a6e-a83e495c3247")
 		(property "Reference" "R2"
-			(at 592.074 220.98 0)
+			(at 590.804 217.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164114,14 +164113,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 584.2 220.4989 0)
+		(property "Value" "100R/1W"
+			(at 597.154 220.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Res_20.32"
@@ -167109,14 +167107,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 515.62 166.8511 0)
+		(property "Value" "3k3"
+			(at 523.24 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P2.54mm_Vertical"
@@ -169569,14 +169566,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 598.17 216.6889 0)
+		(property "Value" "220R"
+			(at 607.568 218.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -170486,13 +170482,12 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 481.33 441.1711 0)
+			(at 488.696 440.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -171721,14 +171716,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 187.96 451.6389 0)
+		(property "Value" "1k"
+			(at 184.404 455.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -171791,8 +171785,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 581.406 301.498 0)
+		(property "Value" "47R"
+			(at 582.676 306.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172013,14 +172007,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 531.3411 173.99 0)
+		(property "Value" "51k"
+			(at 532.13 173.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P2.54mm_Vertical"
@@ -173165,7 +173158,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "220R"
 			(at 610.362 348.996 0)
 			(effects
 				(font
@@ -175385,7 +175378,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
+		(property "Value" "X11"
 			(at 201.93 124.4599 90)
 			(effects
 				(font
@@ -176194,7 +176187,7 @@
 		(dnp no)
 		(uuid "f5ab73b1-e25c-4500-a90f-62e145e934ae")
 		(property "Reference" "Q5"
-			(at 544.576 168.148 0)
+			(at 544.068 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176203,7 +176196,7 @@
 			)
 		)
 		(property "Value" "BC548"
-			(at 534.924 167.386 0)
+			(at 544.068 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

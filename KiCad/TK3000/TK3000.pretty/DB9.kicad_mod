@@ -9,8 +9,8 @@
 		(uuid "a00080c3-362c-4717-b9f6-2a950997cfb9")
 		(effects
 			(font
-				(face "Routed Gothic")
-				(size 1.6 1.6)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.32)
 				(bold yes)
 			)
@@ -115,7 +115,8 @@
 		(uuid "34c7b86a-7d36-4ebf-b8aa-a85c106dfe13")
 		(effects
 			(font
-				(size 1.3 1.3)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -127,7 +128,8 @@
 		(uuid "5c88357f-601e-44a7-8b13-ed0941134f40")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -139,7 +141,8 @@
 		(uuid "c23cfb39-d220-4bcc-be6c-1d6a858f2c23")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Microdigital")
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
@@ -149,7 +152,7 @@
 		(start -15.15 -7.96)
 		(end -15.15 6.02)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -159,7 +162,7 @@
 		(start -15.15 6.02)
 		(end 15.15 6.02)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -169,7 +172,7 @@
 		(start -13.41 7.45)
 		(end -10.16 7.45)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -179,7 +182,7 @@
 		(start -10.16 7.45)
 		(end -9.6 6.88)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -189,7 +192,7 @@
 		(start -10.01 -10)
 		(end -10.01 -7.98)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -199,7 +202,7 @@
 		(start -6.24 6.02)
 		(end -6.24 8.54)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -209,7 +212,7 @@
 		(start 6.43 6.01)
 		(end 6.43 8.53)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -219,7 +222,7 @@
 		(start 8.9 -10)
 		(end 8.9 -7.98)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -229,7 +232,7 @@
 		(start 15.15 -7.96)
 		(end -15.15 -7.96)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -239,7 +242,7 @@
 		(start 15.15 6.02)
 		(end 15.15 -7.96)
 		(stroke
-			(width 0.25)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -261,7 +264,7 @@
 			(xy -7.66 9.07) (xy -7.66 9.08) (xy -7.66 9.09)
 		)
 		(stroke
-			(width 0)
+			(width 0.254)
 			(type solid)
 		)
 		(fill yes)
@@ -312,7 +315,7 @@
 			(xy 7.53 10.19) (xy 7.54 10.19) (xy 7.55 10.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.254)
 			(type solid)
 		)
 		(fill yes)
@@ -386,7 +389,7 @@
 			(xy 8.5 7.26) (xy 8.5 7.24) (xy 8.5 7.21)
 		)
 		(stroke
-			(width 0)
+			(width 0.254)
 			(type solid)
 		)
 		(fill yes)
@@ -465,7 +468,7 @@
 			(xy -8.27 7.26) (xy -8.27 7.28) (xy -8.27 7.3) (xy -8.27 7.33) (xy -8.28 7.35)
 		)
 		(stroke
-			(width 0)
+			(width 0.254)
 			(type solid)
 		)
 		(fill yes)

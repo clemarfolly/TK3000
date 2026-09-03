@@ -1,4 +1,4 @@
-27459072491600826
+27461040714096215
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100875,6 +100875,13 @@ C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.7*2.5mm^2, Capacitor,
 C Disc series Radial pin pitch 5.00mm diameter 4.7mm width 2.5mm Capacitor
 0
 3
+2
+TK3000
+CP_Disc_5.08
+C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 5.00mm diameter 4.3mm width 1.9mm Capacitor
+0
+2
 2
 TK3000
 C_Disc_5.08

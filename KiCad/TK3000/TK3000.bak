@@ -244,7 +244,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(rectangle
@@ -902,7 +902,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -1487,7 +1487,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -2045,20 +2045,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "6502_0_1"
+		(symbol "6502_1_1"
 			(rectangle
 				(start -6.35 39.37)
 				(end 8.89 -20.32)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "6502_1_1"
 			(pin output line
 				(at -8.89 36.83 0)
 				(length 2.54)
@@ -2868,7 +2866,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(arc
@@ -2880,7 +2878,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -3078,7 +3076,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(arc
@@ -3090,7 +3088,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -3288,7 +3286,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(arc
@@ -3300,7 +3298,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -3498,7 +3496,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(arc
@@ -3510,7 +3508,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -3745,7 +3743,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -4714,7 +4712,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -4774,10 +4772,10 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -4842,10 +4840,10 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -4910,10 +4908,10 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -4978,10 +4976,10 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -5465,7 +5463,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -5846,7 +5844,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -6227,7 +6225,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -6608,7 +6606,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -6661,20 +6659,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "74LS244_E1_0_1"
+		(symbol "74LS244_E1_1_1"
 			(rectangle
 				(start -6.35 15.24)
 				(end 7.62 -7.62)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "74LS244_E1_1_1"
 			(pin input line
 				(at -8.89 12.7 0)
 				(length 2.54)
@@ -7485,7 +7481,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -7866,7 +7862,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -8247,7 +8243,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -9216,7 +9212,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -9597,7 +9593,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -10039,7 +10035,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -10481,7 +10477,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -10856,7 +10852,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -11231,7 +11227,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -12032,7 +12028,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -12133,7 +12129,7 @@
 				)
 				(stroke
 					(width 0.254)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -12145,7 +12141,22 @@
 				)
 				(stroke
 					(width 0.254)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 2.54) (xy -3.81 2.54) (xy -3.5426 2.0415) (xy -3.3764 1.7093) (xy -3.2657 1.4007)
+					(xy -3.147 0.9656) (xy -3.0679 0.3723) (xy -3.0679 0.0479) (xy -3.0828 -0.5847) (xy -3.161 -0.9727)
+					(xy -3.2671 -1.4388) (xy -3.3843 -1.7291) (xy -3.5224 -2.0493) (xy -3.6857 -2.3257) (xy -3.8176 -2.5455)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -12160,7 +12171,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(arc
@@ -12172,7 +12183,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -12347,6 +12358,21 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 2.54) (xy -3.81 2.54) (xy -3.5426 2.0415) (xy -3.3764 1.7093) (xy -3.2657 1.4007)
+					(xy -3.147 0.9656) (xy -3.0679 0.3723) (xy -3.0679 0.0479) (xy -3.0828 -0.5847) (xy -3.161 -0.9727)
+					(xy -3.2671 -1.4388) (xy -3.3843 -1.7291) (xy -3.5224 -2.0493) (xy -3.6857 -2.3257) (xy -3.8176 -2.5455)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(arc
 				(start 3.81 0)
 				(mid 2.3153 -1.8855)
@@ -12356,7 +12382,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(arc
@@ -12368,7 +12394,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -12543,6 +12569,21 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 2.54) (xy -3.81 2.54) (xy -3.5426 2.0415) (xy -3.3764 1.7093) (xy -3.2657 1.4007)
+					(xy -3.147 0.9656) (xy -3.0679 0.3723) (xy -3.0679 0.0479) (xy -3.0828 -0.5847) (xy -3.161 -0.9727)
+					(xy -3.2671 -1.4388) (xy -3.3843 -1.7291) (xy -3.5224 -2.0493) (xy -3.6857 -2.3257) (xy -3.8176 -2.5455)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(arc
 				(start 3.81 0)
 				(mid 2.3153 -1.8855)
@@ -12552,7 +12593,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(arc
@@ -12564,7 +12605,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -12739,6 +12780,21 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 2.54) (xy -3.81 2.54) (xy -3.5426 2.0415) (xy -3.3764 1.7093) (xy -3.2657 1.4007)
+					(xy -3.147 0.9656) (xy -3.0679 0.3723) (xy -3.0679 0.0479) (xy -3.0828 -0.5847) (xy -3.161 -0.9727)
+					(xy -3.2671 -1.4388) (xy -3.3843 -1.7291) (xy -3.5224 -2.0493) (xy -3.6857 -2.3257) (xy -3.8176 -2.5455)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(arc
 				(start 3.81 0)
 				(mid 2.3153 -1.8855)
@@ -12748,7 +12804,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(arc
@@ -12760,7 +12816,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -12900,8 +12956,8 @@
 		)
 		(symbol "74S02_F2_5_0"
 			(pin power_in line
-				(at 0 12.7 270)
-				(length 5.08)
+				(at 0 10.16 270)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font
@@ -12918,8 +12974,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 90)
-				(length 5.08)
+				(at 0 -10.16 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -12938,14 +12994,14 @@
 		)
 		(symbol "74S02_F2_5_1"
 			(rectangle
-				(start -3.81 7.62)
-				(end 3.81 -7.62)
+				(start -5.08 7.62)
+				(end 5.08 -7.62)
 				(stroke
 					(width 0.254)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -13164,7 +13220,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -13305,7 +13361,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -13356,7 +13412,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -13620,17 +13676,6 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 1.27 0)
-				(radius 2.8194)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "BC548_1_1"
 			(polyline
@@ -13655,6 +13700,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(circle
+				(center 1.27 0)
+				(radius 2.8194)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 			(polyline
@@ -23817,6 +23873,18 @@
 			)
 		)
 		(symbol "Video_Jack_0_1"
+			(polyline
+				(pts
+					(xy -0.9127 -0.0013) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center 0 0)
 				(radius 0.9158)
@@ -23841,7 +23909,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 -4.572)
+					(xy 0 -3.81) (xy 0 -3.048)
 				)
 				(stroke
 					(width 0)
@@ -23873,7 +23941,7 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54)
+				(length 1.27)
 				(name ""
 					(effects
 						(font

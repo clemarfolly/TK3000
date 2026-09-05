@@ -27624,12 +27624,6 @@
 		(uuid "de616a1d-406f-49db-9824-ad0162ecaadb")
 	)
 	(junction
-		(at 281.94 302.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de7496ef-27f6-45c2-b093-3f4afc812e42")
-	)
-	(junction
 		(at 93.98 494.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -31928,16 +31922,6 @@
 			(type default)
 		)
 		(uuid "0fcd7c5a-56a2-403c-af9d-7534e2350d94")
-	)
-	(bus
-		(pts
-			(xy 281.94 265.43) (xy 281.94 302.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fd144d3-9246-46a7-86a5-9dc5bd710249")
 	)
 	(wire
 		(pts
@@ -48149,16 +48133,6 @@
 		)
 		(uuid "be1a8272-643a-4d0d-a754-00a5cc5d19ea")
 	)
-	(bus
-		(pts
-			(xy 281.94 302.26) (xy 323.85 302.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be28dcdc-da89-48ea-ac3c-a55dc57e3a9b")
-	)
 	(wire
 		(pts
 			(xy 551.18 242.57) (xy 561.34 242.57)
@@ -53331,7 +53305,7 @@
 	)
 	(bus
 		(pts
-			(xy 257.81 302.26) (xy 281.94 302.26)
+			(xy 257.81 302.26) (xy 323.85 302.26)
 		)
 		(stroke
 			(width 0)
@@ -143801,14 +143775,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 257.81 201.4489 0)
+		(property "Value" "120R"
+			(at 266.7 204.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -144470,14 +144443,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 193.04 196.0611 0)
+		(property "Value" "120R"
+			(at 192.786 197.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -161697,7 +161669,7 @@
 		(dnp no)
 		(uuid "65de6522-c647-4b1f-aa9e-1cbf83ebdc63")
 		(property "Reference" "C97"
-			(at 189.23 201.168 90)
+			(at 188.976 201.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161705,14 +161677,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 193.04 203.2062 0)
+		(property "Value" "220pF"
+			(at 193.04 204.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -162690,14 +162661,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 219.71 196.8562 0)
+		(property "Value" "220pF"
+			(at 219.71 201.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -163749,14 +163719,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 214.63 187.4789 0)
+		(property "Value" "120R"
+			(at 217.932 181.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -165159,14 +165128,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 535.4589 135.89 0)
+		(property "Value" "1k"
+			(at 535.4589 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -167937,14 +167905,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 316.992 188.468 0)
+		(property "Value" "47R"
+			(at 324.866 187.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P2.54mm_Vertical"
@@ -168376,28 +168343,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "4be27e21-834a-4704-92b5-562982068561")
+			(uuid "4be27e21-834a-4704-92b5-562982068563")
 		)
 		(pin "2"
-			(uuid "43faf598-8efe-421e-a9b4-592a71fecd92")
+			(uuid "43faf598-8efe-421e-a9b4-592a71fecd94")
 		)
 		(pin "3"
-			(uuid "75d2cf39-7306-47ac-84f2-834775884e5d")
+			(uuid "75d2cf39-7306-47ac-84f2-834775884e5f")
 		)
 		(pin "9"
 			(uuid "a5eb4edf-f061-40b5-8aab-d62761aea306")
 		)
 		(pin "6"
-			(uuid "07fd5e38-2ab4-4957-9594-550b55ecffeb")
+			(uuid "07fd5e38-2ab4-4957-9594-550b55ecffec")
 		)
 		(pin "7"
 			(uuid "432a3695-8299-4811-97a4-163bb0677157")
 		)
 		(pin "12"
-			(uuid "64fbe846-450b-4820-881c-b818b2f94386")
+			(uuid "64fbe846-450b-4820-881c-b818b2f94388")
 		)
 		(pin "13"
-			(uuid "14b23518-86f9-48e6-a65d-f8d4865a6814")
+			(uuid "14b23518-86f9-48e6-a65d-f8d4865a6816")
 		)
 		(pin "10"
 			(uuid "51583c3b-aba8-4efc-9e62-68f7627b7136")
@@ -168406,16 +168373,16 @@
 			(uuid "e0497037-c8d6-4bd0-8db1-3dcf1ce052c0")
 		)
 		(pin "4"
-			(uuid "4fc236be-109c-4597-bda1-5b68d15fbb84")
+			(uuid "4fc236be-109c-4597-bda1-5b68d15fbb85")
 		)
 		(pin "5"
-			(uuid "6b64e408-3338-45cc-81b6-2ab71ee7e0d7")
+			(uuid "6b64e408-3338-45cc-81b6-2ab71ee7e0d8")
 		)
 		(pin "8"
 			(uuid "eed435f7-d684-4372-9953-dc8d8bb6ae67")
 		)
 		(pin "11"
-			(uuid "d3dd934f-430e-4bea-8a11-dbede0f9fd6e")
+			(uuid "d3dd934f-430e-4bea-8a11-dbede0f9fd70")
 		)
 		(instances
 			(project "TK3000"
@@ -169717,7 +169684,7 @@
 		(dnp no)
 		(uuid "8ee3c76e-9304-4a34-bf2e-071f7855b42a")
 		(property "Reference" "R95"
-			(at 202.184 197.104 90)
+			(at 205.486 197.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169787,7 +169754,7 @@
 		(dnp no)
 		(uuid "8f1261b0-3f73-4f3d-90b2-aaca1f9f9742")
 		(property "Reference" "C95"
-			(at 308.61 150.368 0)
+			(at 306.832 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174594,14 +174561,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 219.71 187.4789 0)
+		(property "Value" "120R"
+			(at 220.218 186.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -175748,7 +175714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "~"
 			(at 84.328 269.748 0)
 			(effects
 				(font
@@ -177624,14 +177590,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 304.292 165.862 0)
+		(property "Value" "470R"
+			(at 306.324 164.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P2.54mm_Vertical"
@@ -183502,14 +183467,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 224.79 196.8562 0)
+		(property "Value" "220pF"
+			(at 224.79 200.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -184050,20 +184014,19 @@
 		(dnp no)
 		(uuid "d502daa5-53c8-4b72-be73-39e252da2918")
 		(property "Reference" "L4"
-			(at 600.71 375.158 90)
+			(at 600.71 371.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Ind"
-			(at 600.71 374.65 90)
+		(property "Value" "27uH"
+			(at 601.98 373.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Ind_762"
@@ -187054,7 +187017,7 @@
 		(dnp no)
 		(uuid "df644414-4000-4889-9077-cb9a3c4dbd8d")
 		(property "Reference" "C36"
-			(at 253.492 199.136 0)
+			(at 252.984 197.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -187062,14 +187025,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 257.81 204.4762 0)
+		(property "Value" "220pF"
+			(at 251.968 199.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -188465,13 +188427,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "4be27e21-834a-4704-92b5-562982068563")
+			(uuid "4be27e21-834a-4704-92b5-562982068564")
 		)
 		(pin "2"
-			(uuid "43faf598-8efe-421e-a9b4-592a71fecd94")
+			(uuid "43faf598-8efe-421e-a9b4-592a71fecd95")
 		)
 		(pin "3"
-			(uuid "75d2cf39-7306-47ac-84f2-834775884e5f")
+			(uuid "75d2cf39-7306-47ac-84f2-834775884e60")
 		)
 		(pin "9"
 			(uuid "2c24ac8b-a730-4cbf-88aa-da1ffa9adf76")
@@ -188483,10 +188445,10 @@
 			(uuid "3a600e68-cb08-4ee2-9d5e-35e292b0a8b0")
 		)
 		(pin "12"
-			(uuid "64fbe846-450b-4820-881c-b818b2f94388")
+			(uuid "64fbe846-450b-4820-881c-b818b2f94389")
 		)
 		(pin "13"
-			(uuid "14b23518-86f9-48e6-a65d-f8d4865a6816")
+			(uuid "14b23518-86f9-48e6-a65d-f8d4865a6817")
 		)
 		(pin "10"
 			(uuid "fd475df0-7065-4f00-94b9-626ba1b6a92b")
@@ -188504,7 +188466,7 @@
 			(uuid "56256ea4-53fd-4235-a88a-304916735493")
 		)
 		(pin "11"
-			(uuid "d3dd934f-430e-4bea-8a11-dbede0f9fd70")
+			(uuid "d3dd934f-430e-4bea-8a11-dbede0f9fd71")
 		)
 		(instances
 			(project "TK3000"
@@ -191160,19 +191122,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "43aa4623-57c3-4116-8c83-5fc1f16e1f75")
+			(uuid "43aa4623-57c3-4116-8c83-5fc1f16e1f76")
 		)
 		(pin "2"
-			(uuid "72b14205-54ec-43cb-8e78-b1c2cf588848")
+			(uuid "72b14205-54ec-43cb-8e78-b1c2cf588849")
 		)
 		(pin "9"
-			(uuid "932c5ece-522b-4d46-8ef6-62524cb96660")
+			(uuid "932c5ece-522b-4d46-8ef6-62524cb96661")
 		)
 		(pin "10"
-			(uuid "e5e8031c-b438-4f62-ab22-dd11ab56043b")
+			(uuid "e5e8031c-b438-4f62-ab22-dd11ab56043c")
 		)
 		(pin "5"
-			(uuid "2c9b6992-b666-414a-aaab-25e15ec2ba15")
+			(uuid "2c9b6992-b666-414a-aaab-25e15ec2ba16")
 		)
 		(pin "13"
 			(uuid "cf657b9f-d992-43e8-bf59-7fa22d367437")
@@ -191187,16 +191149,16 @@
 			(uuid "9c03278f-12d8-4d95-9dc7-36cd4194b837")
 		)
 		(pin "6"
-			(uuid "c63ed363-bbb4-4ef6-9e94-27c0ea8ee454")
+			(uuid "c63ed363-bbb4-4ef6-9e94-27c0ea8ee455")
 		)
 		(pin "4"
-			(uuid "80fb363f-6c14-43fd-880f-410f05369a75")
+			(uuid "80fb363f-6c14-43fd-880f-410f05369a76")
 		)
 		(pin "8"
-			(uuid "d6b2fc46-2419-4128-839b-1842d360ed0b")
+			(uuid "d6b2fc46-2419-4128-839b-1842d360ed0c")
 		)
 		(pin "3"
-			(uuid "0650781b-5e8e-475f-8ab5-94adc910d569")
+			(uuid "0650781b-5e8e-475f-8ab5-94adc910d56a")
 		)
 		(pin "12"
 			(uuid "fea0d9ad-fa1b-469f-834d-89a378197a92")
@@ -192756,14 +192718,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 576.072 375.92 0)
+		(property "Value" "47pF"
+			(at 581.152 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"

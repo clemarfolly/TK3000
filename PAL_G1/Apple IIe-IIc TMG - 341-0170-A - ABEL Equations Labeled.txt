@@ -1,0 +1,53 @@
+ABLE Equasions from GAL16V8 JEDEC, Read from Apple IIe PAL (HAL).
+
+Pin #
+1   2  3    4  5    6    7   8      9      10  11     12    13    14      15      16  17   18 19   20
+14M 7M CREF H0 VID7 SEGB GR' CASEN' 80COL' GND ENTMG' LDPS' VID7M PHASE_1 PHASE_0 Q3' CAS' AX RAS' VCC
+
+/RAS':=Q3'
+     +7M*/RAS'*/PHASE_0
+     +/7M*/AX*PHASE_0
+     +7M*CREF*AX*H0*PHASE_0
+     +/7M*/CREF*AX*H0*PHASE_0
+
+/AX:=/RAS'*Q3'
+
+/CAS':=/RAS'*/AX*CAS'*/PHASE_0
+     +/RAS'*/AX*CAS'*PHASE_0*/CASEN'
+     +/RAS'*/CAS'
+
+
+/Q3':=/7M*/AX*/PHASE_0
+     +/RAS'*/Q3'
+     +7M*/AX*PHASE_0
+
+/PHASE_0:=RAS'*/Q3'*PHASE_0
+     +Q3'*/PHASE_0
+     +/RAS'*/PHASE_0
+
+/PHASE_1:=RAS'*/Q3'*/PHASE_0
+     +Q3'*PHASE_0
+     +/RAS'*PHASE_0
+
+/VID7M:=7M*GR'
+     +/SEGB*PHASE_0*/GR'*VID7M
+     +Q3'*/SEGB*/GR'*VID7M
+     +AX*/SEGB*/GR'*VID7M
+     +/AX*/VID7*/Q3'*/SEGB*/PHASE_0*/GR'
+     +CREF*/AX*/H0*/Q3'*/SEGB*/PHASE_0*/GR'
+     +SEGB*/GR'
+     +GR'*/80COL'
+
+/LDPS':=7M*/RAS'*/VID7*/Q3'*/SEGB*/PHASE_0*/GR'
+     +/7M*/RAS'*VID7*/Q3'*/SEGB*/PHASE_0*/GR'
+     +/AX*/Q3'*SEGB*/PHASE_0*/GR'
+     +/AX*/Q3'*/PHASE_0*GR'
+     +/AX*/Q3'*PHASE_0*GR'*/80COL'
+     +CREF*/AX*/H0*/Q3'*/SEGB*/PHASE_0*/GR'
+
+
+DESCRIPTION:
+'=not (inverted)
++=or (# in CUPL)
+*=and (& in CUPL)
+/=low (! in CUPL)

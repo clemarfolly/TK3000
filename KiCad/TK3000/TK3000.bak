@@ -16055,20 +16055,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "GAME_IO_J15_0_1"
+		(symbol "GAME_IO_J15_1_1"
 			(rectangle
 				(start -4.445 0)
 				(end 4.445 -20.32)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "GAME_IO_J15_1_1"
 			(pin no_connect line
 				(at -6.985 -1.27 0)
 				(length 2.54)
@@ -16407,20 +16405,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "IOU_H6_0_1"
+		(symbol "IOU_H6_1_1"
 			(rectangle
 				(start -7.62 5.08)
 				(end 7.62 -69.85)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "IOU_H6_1_1"
 			(pin bidirectional line
 				(at -10.16 3.81 0)
 				(length 2.54)
@@ -16782,9 +16778,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 7.62 270)
+				(at -2.54 7.62 270)
 				(length 2.54)
-				(name "~{RESET}"
+				(name "~{RST}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16792,24 +16788,6 @@
 					)
 				)
 				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -3.81 -72.39 90)
-				(length 2.54)
-				(name "R/~{W}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16828,6 +16806,24 @@
 					)
 				)
 				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -72.39 90)
+				(length 2.54)
+				(name "R/~{W}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17191,20 +17187,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "J0_0_1"
+		(symbol "J0_1_1"
 			(rectangle
 				(start -1.27 38.1)
 				(end 1.27 -38.1)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "J0_1_1"
 			(pin passive line
 				(at -3.81 36.83 0)
 				(length 2.54)
@@ -18335,20 +18329,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "J16_0_1"
+		(symbol "J16_1_1"
 			(rectangle
 				(start -1.27 14.986)
 				(end 1.27 -13.97)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "J16_1_1"
 			(pin passive line
 				(at -3.81 12.7 0)
 				(length 2.54)
@@ -18597,20 +18589,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "J17_0_1"
+		(symbol "J17_1_1"
 			(rectangle
 				(start -1.27 23.876)
 				(end 1.27 -20.32)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "J17_1_1"
 			(pin passive line
 				(at -3.81 21.59 0)
 				(length 2.54)
@@ -19216,6 +19206,183 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "J2_Jack"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 2.286 -5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "J2_Jack_0_1"
+			(polyline
+				(pts
+					(xy -0.9127 -0.0013) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.9158)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy 0 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.635) (xy 1.27 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "J2_Jack_1_1"
+			(circle
+				(center 0 0)
+				(radius 2.9621)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19970,20 +20137,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "MMU_H4_0_1"
+		(symbol "MMU_H4_1_1"
 			(rectangle
 				(start -7.62 5.08)
 				(end 7.62 -55.88)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "MMU_H4_1_1"
 			(pin output line
 				(at -10.16 1.27 0)
 				(length 2.54)
@@ -20754,20 +20919,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "NE558_E8_0_1"
+		(symbol "NE558_E8_1_1"
 			(rectangle
 				(start 2.54 10.16)
 				(end 15.24 -13.97)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "NE558_E8_1_1"
 			(pin input line
 				(at 0 3.81 0)
 				(length 2.54)
@@ -21175,7 +21338,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin tri_state line
@@ -21743,7 +21906,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -22157,17 +22320,6 @@
 			)
 		)
 		(symbol "RAM_J7-J14_0_1"
-			(rectangle
-				(start -10.16 3.81)
-				(end 31.75 -34.29)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -3.81 -34.29) (xy -3.81 3.81)
@@ -22254,6 +22406,17 @@
 			)
 		)
 		(symbol "RAM_J7-J14_1_1"
+			(rectangle
+				(start -10.16 3.81)
+				(end 31.75 -34.29)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(text "J7"
 				(at -6.604 -18.542 0)
 				(effects
@@ -22908,20 +23071,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "SLOT_J1_0_1"
+		(symbol "SLOT_J1_1_1"
 			(rectangle
 				(start -13.97 59.69)
 				(end 1.27 -3.81)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "SLOT_J1_1_1"
 			(pin power_in line
 				(at -16.51 58.42 0)
 				(length 2.54)
@@ -23896,17 +24057,6 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 0 0)
-				(radius 2.9621)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 -3.81) (xy 0 -3.048)
@@ -23921,6 +24071,17 @@
 			)
 		)
 		(symbol "Video_Jack_1_1"
+			(circle
+				(center 0 0)
+				(radius 2.9621)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -24036,7 +24197,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line

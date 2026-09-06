@@ -14087,159 +14087,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TK3000:AudioJack2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack2"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack2_0_1"
-				(rectangle
-					(start -3.81 0)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioJack2_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TK3000:BC548"
 			(pin_names
 				(offset 0)
@@ -17447,9 +17294,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -3.81 7.62 270)
+					(at -2.54 7.62 270)
 					(length 2.54)
-					(name "~{RESET}"
+					(name "~{RST}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17457,24 +17304,6 @@
 						)
 					)
 					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 -72.39 90)
-					(length 2.54)
-					(name "R/~{W}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17501,7 +17330,25 @@
 					)
 				)
 				(pin bidirectional line
-					(at 3.81 7.62 270)
+					(at 0 -72.39 90)
+					(length 2.54)
+					(name "R/~{W}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 7.62 270)
 					(length 2.54)
 					(name "~{SYNC}"
 						(effects
@@ -17521,7 +17368,7 @@
 				(pin bidirectional line
 					(at 10.16 3.81 180)
 					(length 2.54)
-					(name "SPKR"
+					(name "SPK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17542,7 +17389,7 @@
 					(name "~{WNDW}"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.8 0.8)
 							)
 						)
 					)
@@ -19875,6 +19722,183 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TK3000:J2_Jack"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.286 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "J2_Jack_0_1"
+				(polyline
+					(pts
+						(xy -0.9127 -0.0013) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.9158)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "J2_Jack_1_1"
+				(circle
+					(center 0 0)
+					(radius 2.9621)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -26310,6 +26334,12 @@
 		(uuid "1b0d0a5d-0e20-4386-a80d-8e9fc0faf671")
 	)
 	(junction
+		(at 557.53 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d056714-d627-4943-9ca2-92e27104dbbd")
+	)
+	(junction
 		(at 551.18 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -27270,12 +27300,6 @@
 		(uuid "a3d39044-5fae-4218-a09c-0423f6bb3baa")
 	)
 	(junction
-		(at 546.1 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a41f5960-590b-4b75-b893-90b5a7e491e1")
-	)
-	(junction
 		(at 199.39 358.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -27358,6 +27382,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9184d61-ceaa-45eb-9f7f-5a014dfd95fd")
+	)
+	(junction
+		(at 538.48 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9a134f2-4dde-4a49-ba7a-15ae74fa2469")
 	)
 	(junction
 		(at 525.78 402.59)
@@ -30835,6 +30865,16 @@
 	)
 	(wire
 		(pts
+			(xy 538.48 116.84) (xy 538.48 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bc6edd-c2a9-4775-ba28-702a6b48d4cb")
+	)
+	(wire
+		(pts
 			(xy 674.37 100.33) (xy 675.64 100.33)
 		)
 		(stroke
@@ -30922,16 +30962,6 @@
 			(type default)
 		)
 		(uuid "04e65227-e423-41bf-81cb-8d7a357d1625")
-	)
-	(wire
-		(pts
-			(xy 549.91 133.35) (xy 546.1 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f9e67f-0c9c-4cb9-9b24-3114e782bd5e")
 	)
 	(wire
 		(pts
@@ -31555,6 +31585,16 @@
 	)
 	(wire
 		(pts
+			(xy 557.53 124.46) (xy 557.53 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afe3517-4aff-4fd1-91cb-3c7822c78550")
+	)
+	(wire
+		(pts
 			(xy 368.3 119.38) (xy 262.89 119.38)
 		)
 		(stroke
@@ -31842,6 +31882,16 @@
 			(type default)
 		)
 		(uuid "0e884245-467c-4447-91c3-f7fcd3136240")
+	)
+	(wire
+		(pts
+			(xy 543.56 128.27) (xy 544.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8af450-83cf-4878-afe6-c6697c71893b")
 	)
 	(wire
 		(pts
@@ -34595,6 +34645,16 @@
 	)
 	(wire
 		(pts
+			(xy 543.56 116.84) (xy 538.48 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8d5de9-281d-4df5-8b1c-0dc99484593f")
+	)
+	(wire
+		(pts
 			(xy 695.96 71.12) (xy 706.12 71.12)
 		)
 		(stroke
@@ -35635,7 +35695,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 198.12) (xy 361.95 198.12)
+			(xy 435.61 198.12) (xy 361.95 198.12)
 		)
 		(stroke
 			(width 0)
@@ -37975,7 +38035,7 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 200.66) (xy 441.96 198.12)
+			(xy 440.69 200.66) (xy 440.69 198.12)
 		)
 		(stroke
 			(width 0)
@@ -39965,6 +40025,16 @@
 	)
 	(wire
 		(pts
+			(xy 546.1 135.89) (xy 557.53 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67cad11b-f8e7-4dc5-9a48-faaff71bdeb1")
+	)
+	(wire
+		(pts
 			(xy 327.66 265.43) (xy 331.47 265.43)
 		)
 		(stroke
@@ -40485,6 +40555,16 @@
 	)
 	(wire
 		(pts
+			(xy 546.1 153.67) (xy 546.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de2c423-d404-4f7b-858c-7dc425aa1046")
+	)
+	(wire
+		(pts
 			(xy 789.94 40.64) (xy 808.99 40.64)
 		)
 		(stroke
@@ -40645,7 +40725,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 280.67) (xy 434.34 292.1)
+			(xy 438.15 280.67) (xy 438.15 292.1)
 		)
 		(stroke
 			(width 0)
@@ -42235,16 +42315,6 @@
 	)
 	(wire
 		(pts
-			(xy 546.1 133.35) (xy 544.83 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "812ecb61-d839-4a8f-a0c0-5cf3985d33b9")
-	)
-	(wire
-		(pts
 			(xy 53.34 83.82) (xy 53.34 97.79)
 		)
 		(stroke
@@ -43272,16 +43342,6 @@
 			(type default)
 		)
 		(uuid "8a5dde06-2d5f-4972-94b4-b61620d536f9")
-	)
-	(wire
-		(pts
-			(xy 546.1 133.35) (xy 546.1 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a67e0e7-557b-49e4-85b3-682e1b2e3383")
 	)
 	(wire
 		(pts
@@ -45235,7 +45295,7 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 198.12) (xy 521.97 198.12)
+			(xy 440.69 198.12) (xy 521.97 198.12)
 		)
 		(stroke
 			(width 0)
@@ -45472,6 +45532,16 @@
 			(type default)
 		)
 		(uuid "a0c7203a-493c-414f-b122-04767102fd11")
+	)
+	(wire
+		(pts
+			(xy 544.83 133.35) (xy 551.18 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f6fa9a-e40d-4553-9239-a5ee53c73425")
 	)
 	(wire
 		(pts
@@ -48875,7 +48945,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 200.66) (xy 434.34 198.12)
+			(xy 435.61 200.66) (xy 435.61 198.12)
 		)
 		(stroke
 			(width 0)
@@ -50095,7 +50165,7 @@
 	)
 	(wire
 		(pts
-			(xy 549.91 132.08) (xy 549.91 133.35)
+			(xy 557.53 128.27) (xy 557.53 135.89)
 		)
 		(stroke
 			(width 0)
@@ -50245,7 +50315,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 292.1) (xy 434.34 292.1)
+			(xy 327.66 292.1) (xy 438.15 292.1)
 		)
 		(stroke
 			(width 0)
@@ -50602,6 +50672,16 @@
 			(type default)
 		)
 		(uuid "d7c15283-f2b6-450e-bd8d-5476b62314d9")
+	)
+	(wire
+		(pts
+			(xy 551.18 133.35) (xy 551.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c2d3c7-1edc-410c-a598-5b378640a931")
 	)
 	(wire
 		(pts
@@ -52783,6 +52863,16 @@
 		)
 		(uuid "ef73b21c-8e3b-4ccf-8fdb-2ffbbf071097")
 	)
+	(wire
+		(pts
+			(xy 567.69 124.46) (xy 557.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8f355f-2ce0-4dbe-a371-9656ddc9c323")
+	)
 	(bus
 		(pts
 			(xy 130.81 133.35) (xy 130.81 134.62)
@@ -52802,6 +52892,16 @@
 			(type default)
 		)
 		(uuid "efb03a86-e9d2-4cf8-85e2-b5da7506c589")
+	)
+	(wire
+		(pts
+			(xy 567.69 128.27) (xy 567.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb383d1-8642-4345-bccd-764e173e7226")
 	)
 	(wire
 		(pts
@@ -53602,6 +53702,16 @@
 			(type default)
 		)
 		(uuid "f7072d9c-0f22-4601-8f78-bda68d5ff668")
+	)
+	(wire
+		(pts
+			(xy 543.56 127) (xy 543.56 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7077ecd-f6b8-4ea0-b4fc-ed4f7db8539e")
 	)
 	(wire
 		(pts
@@ -142754,7 +142864,7 @@
 			)
 		)
 		(property "Value" "Alto-Falante"
-			(at 563.626 163.83 0)
+			(at 560.832 164.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145239,14 +145349,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 515.62 125.2489 0)
+		(property "Value" "10k"
+			(at 522.986 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -151867,6 +151976,80 @@
 		)
 	)
 	(symbol
+		(lib_id "TK3000:Jumper_3_Open")
+		(at 551.18 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f6ce836-07d5-46a8-9f2a-c0eb43b11a64")
+		(property "Reference" "X6"
+			(at 554.482 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 559.054 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TK3000:PinHeader_1x03_P2.54mm_Vertical"
+			(at 551.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 551.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 551.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84e74092-dfe3-4bf9-8347-db673d722eed")
+		)
+		(pin "1"
+			(uuid "116f98e8-4c1c-485f-aab9-1618f300a03f")
+		)
+		(pin "3"
+			(uuid "e98ae854-baf4-4544-a18f-cc19fad61646")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "X6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TK3000:R")
 		(at 227.33 431.8 0)
 		(unit 1)
@@ -153321,7 +153504,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??uF"
+		(property "Value" "10uF"
 			(at 114.808 439.42 0)
 			(effects
 				(font
@@ -155370,7 +155553,7 @@
 			)
 		)
 		(property "Value" "BC548"
-			(at 505.46 129.5401 0)
+			(at 507.492 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160666,18 +160849,16 @@
 		)
 	)
 	(symbol
-		(lib_id "TK3000:AudioJack2")
-		(at 552.45 127 90)
-		(mirror x)
+		(lib_id "TK3000:J2_Jack")
+		(at 562.61 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "61095907-3fa2-45bc-b6aa-686ce1d96756")
 		(property "Reference" "J9"
-			(at 556.26 125.0949 90)
+			(at 560.7049 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160686,7 +160867,7 @@
 			)
 		)
 		(property "Value" "EAR/MIC"
-			(at 556.26 127.6349 90)
+			(at 564.896 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160695,7 +160876,7 @@
 			)
 		)
 		(property "Footprint" "TK3000:EarJack"
-			(at 552.45 127 0)
+			(at 562.61 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160704,7 +160885,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 552.45 127 0)
+			(at 562.61 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160713,7 +160894,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 552.45 127 0)
+			(at 562.61 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160726,6 +160907,9 @@
 		)
 		(pin "2"
 			(uuid "7690c06c-ab75-4e33-b0fc-d73d55469139")
+		)
+		(pin "3"
+			(uuid "179fab3d-2003-41b7-a43d-3d1c3c46816e")
 		)
 		(instances
 			(project "TK3000"
@@ -161811,7 +161995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??uF"
+		(property "Value" "10uF"
 			(at 117.348 454.66 0)
 			(effects
 				(font
@@ -162062,7 +162246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??uF"
+		(property "Value" "10uF"
 			(at 334.01 547.7509 0)
 			(effects
 				(font
@@ -164330,7 +164514,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 552.45 132.08 0)
+		(at 562.61 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -164338,7 +164522,7 @@
 		(dnp no)
 		(uuid "74cf4586-c96c-42d3-be03-1c092b571aa6")
 		(property "Reference" "#PWR0273"
-			(at 552.45 138.43 0)
+			(at 562.61 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164347,7 +164531,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 552.45 135.636 0)
+			(at 562.61 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164355,7 +164539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 552.45 132.08 0)
+			(at 562.61 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164364,7 +164548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 552.45 132.08 0)
+			(at 562.61 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164373,7 +164557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 552.45 132.08 0)
+			(at 562.61 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173772,14 +173956,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 523.24 126.5189 0)
+		(property "Value" "220k"
+			(at 532.384 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -174832,7 +175015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??uF"
+		(property "Value" "10uF"
 			(at 273.05 547.7509 0)
 			(effects
 				(font
@@ -175105,7 +175288,7 @@
 		(dnp no)
 		(uuid "a531807e-3683-47b5-8044-36412f0a51ee")
 		(property "Reference" "R20"
-			(at 530.098 146.304 0)
+			(at 530.098 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -175113,14 +175296,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 523.24 141.7589 0)
+		(property "Value" "4k7"
+			(at 529.844 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -176976,13 +177158,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 542.2963 129.54 90)
+		(property "Value" "100nF"
+			(at 542.29 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -177447,7 +177628,7 @@
 		(dnp no)
 		(uuid "b661f4a7-3aba-464b-90b3-f31bf9f538a7")
 		(property "Reference" "R32"
-			(at 506.476 122.428 0)
+			(at 506.222 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -177455,14 +177636,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 505.46 121.4389 0)
+		(property "Value" "1k"
+			(at 505.46 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -177764,7 +177944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??uF"
+		(property "Value" "10uF"
 			(at 61.468 435.61 0)
 			(effects
 				(font
@@ -178476,7 +178656,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??uF"
+		(property "Value" "10uF"
 			(at 61.468 448.31 0)
 			(effects
 				(font
@@ -178615,7 +178795,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??uF"
+		(property "Value" "10uF"
 			(at 117.348 469.9 0)
 			(effects
 				(font
@@ -183519,6 +183699,79 @@
 		)
 	)
 	(symbol
+		(lib_id "TK3000:J2_Jack")
+		(at 543.56 121.92 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2733d8d-a802-4fcd-8dc8-ce503917bcb5")
+		(property "Reference" "J10"
+			(at 546.608 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EAR"
+			(at 547.116 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TK3000:EarJack"
+			(at 543.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 543.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 543.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56b6640e-3f54-484e-a6ac-b9967cbaca8b")
+		)
+		(pin "1"
+			(uuid "2471549c-39b2-4d6a-99fb-23a05cd19fe8")
+		)
+		(pin "3"
+			(uuid "51b8b024-1682-4088-bfb3-194a7ab01835")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 518.16 160.02 0)
 		(unit 1)
@@ -187860,7 +188113,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??uF"
+		(property "Value" "10uF"
 			(at 321.31 547.7509 0)
 			(effects
 				(font
@@ -189283,6 +189536,71 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
 					(reference "#PWR0321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 538.48 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e627f26b-a8bf-4467-a98c-b2cd6a627cf4")
+		(property "Reference" "#PWR0329"
+			(at 538.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 538.48 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 538.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 538.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 538.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43ea4d6b-e87c-45cc-adb9-8115aa3211ad")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "#PWR0329")
 					(unit 1)
 				)
 			)

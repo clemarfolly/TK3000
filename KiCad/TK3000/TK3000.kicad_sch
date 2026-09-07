@@ -26118,30 +26118,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 284.226 151.892)
-		(end 289.814 165.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7a3f016b-fb24-4b75-95c1-b1d30e7ab388)
-	)
-	(rectangle
-		(start 288.798 194.056)
-		(end 294.386 207.264)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f0b59fa7-923d-4f99-9af7-52c2cff3e916)
-	)
 	(text "~{C04X}"
 		(exclude_from_sim no)
 		(at 315.214 74.93 0)
@@ -26284,6 +26260,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13b8590d-44ce-478e-9771-da6f4eac3132")
+	)
+	(junction
+		(at 66.04 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14728eb1-533f-4dfd-a72e-68b5ff9e7990")
 	)
 	(junction
 		(at 318.77 167.64)
@@ -26892,6 +26874,12 @@
 		(uuid "653ee3e5-84d0-40ea-8d22-0474020a29e9")
 	)
 	(junction
+		(at 71.12 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65a0593f-94e0-4ccb-89dc-b2fba3269bc7")
+	)
+	(junction
 		(at 502.92 365.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -27330,10 +27318,10 @@
 		(uuid "abfb6416-2432-4816-8412-030f1b1da0c3")
 	)
 	(junction
-		(at 72.39 118.11)
+		(at 71.12 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae5275f9-503a-43dc-923e-fff98e241d7b")
+		(uuid "af55d563-0ea0-4fd5-98dd-e65224588be7")
 	)
 	(junction
 		(at 466.09 166.37)
@@ -27430,12 +27418,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf2d3989-43e1-4ba5-9b7b-5ac807b3e3a0")
-	)
-	(junction
-		(at 463.55 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf7289af-a475-4b01-9dce-6349b0d05469")
 	)
 	(junction
 		(at 60.96 447.04)
@@ -27726,6 +27708,12 @@
 		(uuid "eb51f626-d572-486c-b207-0e78bbaf76b7")
 	)
 	(junction
+		(at 459.74 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec28903c-ab7a-4e8e-b1af-09cb8be48309")
+	)
+	(junction
 		(at 91.44 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -27742,12 +27730,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f19ad091-3c15-485d-897d-7aff84e43498")
-	)
-	(junction
-		(at 67.31 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2fa339c-c749-4a9b-91c7-d5e01dd83d84")
 	)
 	(junction
 		(at 114.3 433.07)
@@ -30785,6 +30767,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.74 142.24) (xy 471.17 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a05fba-de0a-4029-b8fd-c38a59096987")
+	)
+	(wire
+		(pts
 			(xy 240.03 176.53) (xy 242.57 176.53)
 		)
 		(stroke
@@ -32575,16 +32567,6 @@
 	)
 	(wire
 		(pts
-			(xy 471.17 142.24) (xy 463.55 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "162a70d7-179e-4ddc-a7a7-255326f7b52f")
-	)
-	(wire
-		(pts
 			(xy 121.92 144.78) (xy 119.38 144.78)
 		)
 		(stroke
@@ -33372,6 +33354,16 @@
 			(type default)
 		)
 		(uuid "1f3024f7-961e-471f-ab46-5dec4eb50348")
+	)
+	(wire
+		(pts
+			(xy 71.12 118.11) (xy 77.47 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4fc3bc-ba1f-44dd-8494-7eaf69a67d7d")
 	)
 	(wire
 		(pts
@@ -35485,7 +35477,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 115.57) (xy 67.31 115.57)
+			(xy 30.48 115.57) (xy 66.04 115.57)
 		)
 		(stroke
 			(width 0)
@@ -36995,7 +36987,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 118.11) (xy 72.39 118.11)
+			(xy 30.48 118.11) (xy 71.12 118.11)
 		)
 		(stroke
 			(width 0)
@@ -37815,7 +37807,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 105.41) (xy 67.31 106.68)
+			(xy 66.04 105.41) (xy 66.04 106.68)
 		)
 		(stroke
 			(width 0)
@@ -38245,7 +38237,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 105.41) (xy 72.39 106.68)
+			(xy 71.12 105.41) (xy 71.12 106.68)
 		)
 		(stroke
 			(width 0)
@@ -40345,16 +40337,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 118.11) (xy 77.47 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b428573-5642-4269-9605-b3170fc6c8b9")
-	)
-	(wire
-		(pts
 			(xy 561.34 389.89) (xy 556.26 389.89)
 		)
 		(stroke
@@ -40515,7 +40497,7 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 142.24) (xy 463.55 147.32)
+			(xy 459.74 142.24) (xy 459.74 147.32)
 		)
 		(stroke
 			(width 0)
@@ -44155,7 +44137,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 113.03) (xy 72.39 118.11)
+			(xy 71.12 113.03) (xy 71.12 118.11)
 		)
 		(stroke
 			(width 0)
@@ -47623,6 +47605,16 @@
 		)
 		(uuid "b86c839c-8f68-4e56-b216-55f74cd7e4cf")
 	)
+	(wire
+		(pts
+			(xy 66.04 115.57) (xy 77.47 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8749412-2c8d-43bb-8657-9998ff985caa")
+	)
 	(bus
 		(pts
 			(xy 119.38 365.76) (xy 119.38 368.3)
@@ -49023,6 +49015,16 @@
 		)
 		(uuid "c5a58ecc-5cfb-45f1-90a6-2176b43bfdb0")
 	)
+	(wire
+		(pts
+			(xy 71.12 105.41) (xy 66.04 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a59e56-55f5-4b5f-b35f-8b4bbe6b8092")
+	)
 	(bus
 		(pts
 			(xy 119.38 355.6) (xy 119.38 358.14)
@@ -49385,7 +49387,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 105.41) (xy 67.31 105.41)
+			(xy 72.39 105.41) (xy 71.12 105.41)
 		)
 		(stroke
 			(width 0)
@@ -51075,7 +51077,7 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 142.24) (xy 463.55 142.24)
+			(xy 452.12 142.24) (xy 459.74 142.24)
 		)
 		(stroke
 			(width 0)
@@ -51105,7 +51107,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 113.03) (xy 67.31 115.57)
+			(xy 66.04 113.03) (xy 66.04 115.57)
 		)
 		(stroke
 			(width 0)
@@ -51622,16 +51624,6 @@
 			(type default)
 		)
 		(uuid "e4a524b6-30f1-4025-887e-eb14a9923c27")
-	)
-	(wire
-		(pts
-			(xy 67.31 115.57) (xy 77.47 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4d9be7f-59b3-40ca-b6a2-cbdccf811f05")
 	)
 	(wire
 		(pts
@@ -143293,7 +143285,7 @@
 		(dnp no)
 		(uuid "03881c5f-599f-4682-81e6-58ac36dd5b17")
 		(property "Reference" "R7"
-			(at 460.756 234.188 0)
+			(at 460.248 232.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -143301,14 +143293,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 459.74 233.1989 0)
+		(property "Value" "100R"
+			(at 460.502 234.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -143710,7 +143701,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS86_F9"
+		(property "Value" "74LS86"
 			(at 135.636 374.65 0)
 			(effects
 				(font
@@ -144019,14 +144010,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 321.31 165.1062 0)
+		(property "Value" "33pF"
+			(at 320.802 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -145687,14 +145677,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 418.6189 173.99 0)
+		(property "Value" "100R"
+			(at 422.402 170.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -145815,7 +145804,7 @@
 		(dnp no)
 		(uuid "1145a49f-c45b-4bb8-b0e2-8ef209aef27e")
 		(property "Reference" "X21"
-			(at 491.744 332.74 90)
+			(at 492.506 332.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145823,8 +145812,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "X21_X22"
-			(at 495.3 348.234 90)
+		(property "Value" "X22"
+			(at 495.046 347.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146600,7 +146589,7 @@
 		(dnp no)
 		(uuid "1732bdbf-b3eb-4cd1-be29-4c2006bc7d09")
 		(property "Reference" "R105"
-			(at 74.168 114.3 90)
+			(at 74.422 115.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146608,14 +146597,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 78.74 110.9711 0)
+		(property "Value" "2k2"
+			(at 74.168 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -146874,20 +146862,19 @@
 		(dnp no)
 		(uuid "18ff2fba-b314-4b07-9647-79111861eba6")
 		(property "Reference" "C208"
-			(at 133.096 466.09 0)
+			(at 133.604 464.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 125.73 466.0837 90)
+		(property "Value" "100nF"
+			(at 133.858 468.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -146949,13 +146936,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 450.8563 226.06 90)
+		(property "Value" "C"
+			(at 450.85 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -147386,7 +147372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27C64_F7"
+		(property "Value" "27C64"
 			(at 488.442 409.956 90)
 			(effects
 				(font
@@ -148526,7 +148512,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00_F10"
+		(property "Value" "74LS00"
 			(at 568.96 380.238 0)
 			(effects
 				(font
@@ -148761,14 +148747,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 452.12 175.7411 0)
+		(property "Value" "1k"
+			(at 453.39 172.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P2.54mm_Vertical"
@@ -149656,14 +149641,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 124.46 152.8811 0)
+		(property "Value" "1k"
+			(at 122.428 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -150291,13 +150275,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 528.32 143.5037 90)
+		(property "Value" "C"
+			(at 536.448 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -150568,7 +150551,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS86_F9"
+		(property "Value" "74LS86"
 			(at 76.962 541.02 90)
 			(effects
 				(font
@@ -151257,14 +151240,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 455.93 175.7411 0)
+		(property "Value" "1k"
+			(at 457.454 172.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P2.54mm_Vertical"
@@ -151393,14 +151375,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 408.4589 416.56 0)
+		(property "Value" "1k"
+			(at 409.702 421.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -151463,8 +151444,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 605.536 307.848 0)
+		(property "Value" "100R"
+			(at 608.33 314.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152127,10 +152108,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "30af3b77-ad0c-40c9-ad4d-c5191e39eb82")
 		(property "Reference" "UF9"
-			(at 506.73 319.7351 90)
+			(at 499.364 320.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152138,8 +152118,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS86_F9"
-			(at 506.73 322.2751 90)
+		(property "Value" "74LS86"
+			(at 508.254 323.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152365,7 +152345,7 @@
 		(dnp no)
 		(uuid "3139f009-967c-42fb-bc41-1a326cdf8f11")
 		(property "Reference" "R79"
-			(at 193.04 292.1 90)
+			(at 192.786 290.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152373,14 +152353,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 192.2511 285.75 0)
+		(property "Value" "47R"
+			(at 192.786 286.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -152862,8 +152841,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 526.796 291.1375 90)
+		(property "Value" "47R"
+			(at 528.066 293.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154443,7 +154422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS86_F9"
+		(property "Value" "74LS86"
 			(at 72.39 247.142 0)
 			(effects
 				(font
@@ -156066,7 +156045,7 @@
 		(dnp no)
 		(uuid "42644d6c-5639-4d5b-b567-2e98c8969335")
 		(property "Reference" "R110"
-			(at 466.344 152.908 90)
+			(at 466.598 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156074,14 +156053,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 466.09 151.6111 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -156324,7 +156302,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS74_C13"
+		(property "Value" "74LS74"
 			(at 278.384 365.506 0)
 			(effects
 				(font
@@ -158381,14 +158359,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 459.74 175.7411 0)
+		(property "Value" "1k"
+			(at 461.264 172.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P2.54mm_Vertical"
@@ -159085,14 +159062,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 418.6189 170.18 0)
+		(property "Value" "100R"
+			(at 422.148 166.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -160723,7 +160699,7 @@
 		(dnp no)
 		(uuid "60b7206e-8dfd-4eaf-abf9-362db0669f4e")
 		(property "Reference" "C94"
-			(at 313.182 180.34 0)
+			(at 311.912 178.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160731,14 +160707,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 313.69 179.0638 0)
+		(property "Value" "100pF"
+			(at 311.15 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -161636,13 +161611,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 116.84 436.8737 90)
+		(property "Value" "100nF"
+			(at 124.46 438.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -163303,20 +163277,19 @@
 		(dnp no)
 		(uuid "6c7f3b49-a0a1-4d33-90cf-95d04898ab91")
 		(property "Reference" "C8"
-			(at 73.406 452.12 90)
+			(at 71.628 450.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 66.04 452.1137 90)
+		(property "Value" "100nF"
+			(at 73.406 454.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -164874,7 +164847,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75ded1c1-4957-4b90-a4f0-ad0a406151b8")
 		(property "Reference" "Y1"
 			(at 321.31 156.2099 90)
@@ -164885,8 +164857,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal_Small"
-			(at 321.31 158.7499 90)
+		(property "Value" "14.30244 MHz"
+			(at 317.754 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165694,8 +165666,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS74_E11"
-			(at 503.936 276.606 90)
+		(property "Value" "74LS74"
+			(at 503.682 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167056,13 +167028,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 391.16 182.8737 90)
+		(property "Value" "22nF"
+			(at 392.43 184.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -167261,7 +167232,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:R")
-		(at 72.39 109.22 0)
+		(at 71.12 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -167269,7 +167240,7 @@
 		(dnp no)
 		(uuid "82198c50-a0af-4297-889a-234bd310c3f4")
 		(property "Reference" "R106"
-			(at 70.358 114.3 90)
+			(at 69.088 115.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167277,18 +167248,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 74.93 110.9711 0)
+		(property "Value" "2k2"
+			(at 69.088 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
-			(at 70.612 109.22 90)
+			(at 69.342 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167297,7 +167267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 109.22 0)
+			(at 71.12 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167306,7 +167276,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 109.22 0)
+			(at 71.12 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169876,14 +169846,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "47R"
 			(at 207.01 201.1411 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -169946,14 +169915,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 309.8862 149.86 0)
+		(property "Value" "100pF"
+			(at 312.928 149.352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -170549,13 +170517,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 64.77 436.8737 90)
+		(property "Value" "100nF"
+			(at 71.628 439.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -171126,7 +171093,7 @@
 		(dnp no)
 		(uuid "94ce716c-b391-4db2-ab18-1cb01bf94ca0")
 		(property "Reference" "UF9"
-			(at 514.35 308.3051 90)
+			(at 521.716 309.372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171134,8 +171101,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS86_F9"
-			(at 514.35 310.8451 90)
+		(property "Value" "74LS86"
+			(at 526.796 314.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171941,7 +171908,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:R")
-		(at 463.55 149.86 0)
+		(at 459.74 149.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -171950,7 +171917,7 @@
 		(dnp no)
 		(uuid "96c8a572-1031-4793-be9f-d4bc9ae2c75b")
 		(property "Reference" "R109"
-			(at 461.264 152.908 90)
+			(at 457.962 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171958,18 +171925,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 461.01 151.6111 0)
+		(property "Value" "1k"
+			(at 456.692 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
-			(at 465.328 149.86 90)
+			(at 461.518 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171978,7 +171944,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 463.55 149.86 0)
+			(at 459.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171987,7 +171953,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 463.55 149.86 0)
+			(at 459.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172028,8 +171994,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS74_E11"
-			(at 510.794 345.948 0)
+		(property "Value" "74LS74"
+			(at 512.572 344.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172329,7 +172295,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "1k"
 			(at 541.528 289.56 90)
 			(effects
 				(font
@@ -172476,7 +172442,7 @@
 		(dnp no)
 		(uuid "98918e7e-b946-495f-882e-5bad6bebdfdf")
 		(property "Reference" "R45"
-			(at 237.49 407.416 90)
+			(at 235.458 407.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172484,14 +172450,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 242.57 406.8811 0)
+		(property "Value" "2k2"
+			(at 237.744 406.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -172791,13 +172756,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 386.08 182.8737 90)
+		(property "Value" "22nF"
+			(at 387.096 184.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -172860,7 +172824,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00_F10"
+		(property "Value" "74LS00"
 			(at 447.294 384.81 0)
 			(effects
 				(font
@@ -175092,7 +175056,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -175896,7 +175859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "22k"
 			(at 84.328 269.748 0)
 			(effects
 				(font
@@ -176160,7 +176123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS166_H8"
+		(property "Value" "74LS166"
 			(at 543.56 405.892 90)
 			(effects
 				(font
@@ -176607,14 +176570,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 310.642 159.512 0)
+		(property "Value" "22k"
+			(at 310.642 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P2.54mm_Vertical"
@@ -177366,14 +177328,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 148.59 409.7289 0)
+		(property "Value" "1k"
+			(at 148.336 410.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -179191,7 +179152,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00_F10"
+		(property "Value" "74LS00"
 			(at 382.524 29.718 0)
 			(effects
 				(font
@@ -179483,14 +179444,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 81.28 376.4011 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P12.70mm_Horizontal"
@@ -180213,7 +180173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Capacitor_Eletrolitico"
+		(property "Value" "10uF"
 			(at 377.19 248.0309 0)
 			(effects
 				(font
@@ -180884,13 +180844,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 234.9563 406.4 90)
+		(property "Value" "C"
+			(at 234.696 416.052 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -181284,7 +181243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS74_E11"
+		(property "Value" "74LS74"
 			(at 56.388 509.778 90)
 			(effects
 				(font
@@ -181512,7 +181471,7 @@
 		(dnp no)
 		(uuid "c72d3536-cb04-43d5-8b8f-76ceca1340b4")
 		(property "Reference" "R8"
-			(at 456.692 228.092 90)
+			(at 454.66 227.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -181520,14 +181479,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 456.7189 227.33 0)
+		(property "Value" "12k"
+			(at 458.724 227.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -181590,7 +181548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS00_F10"
+		(property "Value" "74LS00"
 			(at 97.028 541.782 90)
 			(effects
 				(font
@@ -183542,7 +183500,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS74_C13"
+		(property "Value" "74LS74"
 			(at 35.814 509.778 90)
 			(effects
 				(font
@@ -183919,8 +183877,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS74_C13"
-			(at 216.408 417.322 0)
+		(property "Value" "74LS74"
+			(at 217.932 414.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184274,7 +184232,7 @@
 				)
 			)
 		)
-		(property "Value" "27uH"
+		(property "Value" "47uH"
 			(at 601.98 373.888 0)
 			(effects
 				(font
@@ -184341,13 +184299,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 396.24 182.8737 90)
+		(property "Value" "22nF"
+			(at 397.764 184.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -185332,7 +185289,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 463.55 153.67 0)
+		(at 459.74 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -185340,7 +185297,7 @@
 		(dnp no)
 		(uuid "d8e9fa5f-72b3-45d0-a9b7-c239d544fd28")
 		(property "Reference" "#PWR086"
-			(at 463.55 160.02 0)
+			(at 459.74 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185349,7 +185306,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 463.55 157.226 0)
+			(at 459.74 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185357,7 +185314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 463.55 153.67 0)
+			(at 459.74 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185366,7 +185323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 463.55 153.67 0)
+			(at 459.74 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185375,7 +185332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 463.55 153.67 0)
+			(at 459.74 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185412,13 +185369,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 401.32 182.8737 90)
+		(property "Value" "22nF"
+			(at 402.59 184.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"
@@ -185741,14 +185697,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 418.6189 166.37 0)
+		(property "Value" "100R"
+			(at 422.148 162.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -186141,7 +186096,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:R")
-		(at 67.31 109.22 0)
+		(at 66.04 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -186149,7 +186104,7 @@
 		(dnp no)
 		(uuid "dc4479b6-9ced-4615-9b4a-744a68002a21")
 		(property "Reference" "R104"
-			(at 65.278 114.3 90)
+			(at 64.008 115.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186157,18 +186112,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 69.85 110.9711 0)
+		(property "Value" "2k2"
+			(at 64.008 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
-			(at 65.532 109.22 90)
+			(at 64.262 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186177,7 +186131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 109.22 0)
+			(at 66.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186186,7 +186140,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 109.22 0)
+			(at 66.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -187348,13 +187302,12 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 205.74 182.3989 0)
+			(at 207.772 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -188312,14 +188265,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 418.6189 177.8 0)
+		(property "Value" "100R"
+			(at 422.402 174.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -189194,7 +189146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS00_F10"
+		(property "Value" "74LS00"
 			(at 521.97 276.352 0)
 			(effects
 				(font
@@ -189754,14 +189706,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 105.41 272.2611 0)
+		(property "Value" "2k2"
+			(at 103.886 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -190406,14 +190357,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 151.13 65.2511 0)
+		(property "Value" "22k"
+			(at 151.384 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -192901,14 +192851,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 463.55 175.7411 0)
+		(property "Value" "1k"
+			(at 465.074 172.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P2.54mm_Vertical"
@@ -193234,13 +193183,12 @@
 				)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 121.92 450.8437 90)
+		(property "Value" "100nF"
+			(at 129.54 453.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:C_Disc_5.08"

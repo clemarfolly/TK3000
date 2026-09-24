@@ -1,4 +1,4 @@
-27461041216929514
+27468202716624140
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101015,7 +101015,28 @@ EarJack
 
 0
 3
-2
+3
+TK3000
+Furo_5mm_3mm
+
+
+0
+1
+1
+TK3000
+Furo_7mm_4mm
+
+
+0
+1
+1
+TK3000
+Furo_8mm_5mm
+
+
+0
+1
+1
 TK3000
 GAME_IO
 16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)
@@ -101261,6 +101282,13 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 0
 16
 16
+TK3000
+Untitled
+
+
+0
+1
+1
 TK3000
 X24
 

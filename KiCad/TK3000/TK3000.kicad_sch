@@ -671,6 +671,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TK3000:1N914"
 			(pin_numbers
 				(hide yes)
@@ -26118,6 +26225,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "8x\n22k"
+		(exclude_from_sim no)
+		(at 320.04 256.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "670f9417-1dae-4772-a263-ad4fe990a6a8")
+	)
 	(text "~{C04X}"
 		(exclude_from_sim no)
 		(at 315.214 74.93 0)
@@ -26188,12 +26305,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0cc18dcd-eb16-4909-ab50-e8d8bc0ddb4b")
-	)
-	(junction
-		(at 240.03 436.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d5b4347-8be2-4584-b958-5f627e18da59")
 	)
 	(junction
 		(at 556.26 396.24)
@@ -26880,6 +26991,12 @@
 		(uuid "65a0593f-94e0-4ccb-89dc-b2fba3269bc7")
 	)
 	(junction
+		(at 240.03 436.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "661e8042-892b-4d23-ad47-84dfe641a90b")
+	)
+	(junction
 		(at 502.92 365.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -27462,12 +27579,6 @@
 		(uuid "c5d93c22-0a53-436c-b24c-0e3be5655999")
 	)
 	(junction
-		(at 237.49 436.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c603beb6-e946-4728-bea4-c28bc8c21008")
-	)
-	(junction
 		(at 318.77 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -27478,6 +27589,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8ccbd7c-67d9-46d6-b011-bb1d7171c269")
+	)
+	(junction
+		(at 236.22 436.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c94139a0-9d15-420b-b90a-24ba4826dce7")
 	)
 	(junction
 		(at 491.49 207.01)
@@ -31367,7 +31484,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 436.88) (xy 237.49 436.88)
+			(xy 232.41 436.88) (xy 236.22 436.88)
 		)
 		(stroke
 			(width 0)
@@ -31547,7 +31664,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 424.18) (xy 234.95 429.26)
+			(xy 234.95 424.18) (xy 234.95 427.99)
 		)
 		(stroke
 			(width 0)
@@ -32667,7 +32784,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 424.18) (xy 215.9 429.26)
+			(xy 215.9 424.18) (xy 215.9 427.99)
 		)
 		(stroke
 			(width 0)
@@ -33817,7 +33934,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 424.18) (xy 223.52 429.26)
+			(xy 223.52 424.18) (xy 223.52 427.99)
 		)
 		(stroke
 			(width 0)
@@ -34947,7 +35064,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 424.18) (xy 231.14 429.26)
+			(xy 231.14 424.18) (xy 231.14 427.99)
 		)
 		(stroke
 			(width 0)
@@ -35557,7 +35674,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 424.18) (xy 242.57 429.26)
+			(xy 242.57 424.18) (xy 242.57 427.99)
 		)
 		(stroke
 			(width 0)
@@ -36097,7 +36214,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 435.61) (xy 242.57 449.58)
+			(xy 242.57 434.34) (xy 242.57 449.58)
 		)
 		(stroke
 			(width 0)
@@ -37157,7 +37274,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 435.61) (xy 227.33 449.58)
+			(xy 227.33 434.34) (xy 227.33 449.58)
 		)
 		(stroke
 			(width 0)
@@ -39337,7 +39454,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 435.61) (xy 215.9 449.58)
+			(xy 215.9 434.34) (xy 215.9 449.58)
 		)
 		(stroke
 			(width 0)
@@ -40327,13 +40444,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 435.61) (xy 234.95 449.58)
+			(xy 234.95 434.34) (xy 234.95 449.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b3cbe5f-8494-451c-9373-80c3de6eba3b")
+	)
+	(wire
+		(pts
+			(xy 240.03 436.88) (xy 252.73 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6662cc-c252-4875-a600-0a47fd4fcf77")
 	)
 	(wire
 		(pts
@@ -41137,7 +41264,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 435.61) (xy 231.14 449.58)
+			(xy 231.14 434.34) (xy 231.14 449.58)
 		)
 		(stroke
 			(width 0)
@@ -41257,16 +41384,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 436.88) (xy 240.03 436.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75169d6d-325d-4e65-8fd8-6232e222a7e7")
-	)
-	(wire
-		(pts
 			(xy 229.87 367.03) (xy 229.87 370.84)
 		)
 		(stroke
@@ -41377,6 +41494,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 436.88) (xy 240.03 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76564948-00d4-41ca-a9b2-5d1ba0c074c6")
+	)
+	(wire
+		(pts
 			(xy 742.95 63.5) (xy 750.57 63.5)
 		)
 		(stroke
@@ -41457,7 +41584,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 424.18) (xy 238.76 429.26)
+			(xy 238.76 424.18) (xy 238.76 427.99)
 		)
 		(stroke
 			(width 0)
@@ -43107,7 +43234,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 435.61) (xy 238.76 449.58)
+			(xy 238.76 434.34) (xy 238.76 449.58)
 		)
 		(stroke
 			(width 0)
@@ -43297,7 +43424,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 424.18) (xy 227.33 429.26)
+			(xy 227.33 424.18) (xy 227.33 427.99)
 		)
 		(stroke
 			(width 0)
@@ -43497,7 +43624,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 436.88) (xy 237.49 440.69)
+			(xy 236.22 436.88) (xy 236.22 440.69)
 		)
 		(stroke
 			(width 0)
@@ -43757,7 +43884,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 424.18) (xy 219.71 429.26)
+			(xy 219.71 424.18) (xy 219.71 427.99)
 		)
 		(stroke
 			(width 0)
@@ -43927,7 +44054,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 435.61) (xy 219.71 449.58)
+			(xy 219.71 434.34) (xy 219.71 449.58)
 		)
 		(stroke
 			(width 0)
@@ -47217,7 +47344,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 449.58) (xy 238.76 449.58)
+			(xy 236.22 449.58) (xy 238.76 449.58)
 		)
 		(stroke
 			(width 0)
@@ -47657,16 +47784,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 436.88) (xy 240.03 436.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8c78de9-c153-46ba-9198-2222b5c86443")
-	)
-	(wire
-		(pts
 			(xy 146.05 414.02) (xy 148.59 414.02)
 		)
 		(stroke
@@ -47997,7 +48114,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 447.04) (xy 237.49 449.58)
+			(xy 236.22 447.04) (xy 236.22 449.58)
 		)
 		(stroke
 			(width 0)
@@ -53067,7 +53184,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 435.61) (xy 223.52 449.58)
+			(xy 223.52 434.34) (xy 223.52 449.58)
 		)
 		(stroke
 			(width 0)
@@ -142550,6 +142667,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 707.39 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "006161c3-6eec-4820-a0de-7e8faa0f07a2")
+		(property "Reference" "H3"
+			(at 709.93 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 709.93 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TK3000:Furo_7mm_4mm"
+			(at 707.39 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 707.39 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 707.39 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a05af68-8ab4-4d6a-9e10-4d37f11ddf15")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TK3000:R")
 		(at 72.39 345.44 180)
 		(unit 1)
@@ -142923,14 +143107,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 545.6189 160.02 0)
+		(property "Value" "33R"
+			(at 545.084 159.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -143345,6 +143528,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 715.01 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "03f0818d-6113-4726-9239-976e6c6cdbf3")
+		(property "Reference" "H4"
+			(at 717.55 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 717.55 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TK3000:Furo_7mm_4mm"
+			(at 715.01 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 715.01 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 715.01 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d74d17a8-e866-4994-b2b8-54e12f56b976")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TK3000:Capacitor")
 		(at 256.54 528.32 0)
 		(unit 1)
@@ -143418,7 +143668,7 @@
 		(at 194.31 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "046087a5-36ff-461e-9927-487c2222a104")
@@ -144192,6 +144442,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 699.77 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "085f29bb-4be4-4931-a962-d961cf63939a")
+		(property "Reference" "#PWR0331"
+			(at 699.77 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 699.77 302.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 699.77 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 699.77 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 699.77 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "800d09e4-8167-4ca5-932c-0d457c1db105")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "#PWR0331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 737.87 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "086f3cd4-8696-4086-bb74-dc80eab254e0")
+		(property "Reference" "#PWR0336"
+			(at 737.87 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 737.87 302.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 737.87 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 737.87 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 737.87 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "016297a0-ac3c-495d-9e76-17c6df83f0ef")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "#PWR0336")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TK3000:Capacitor")
 		(at 256.54 511.81 0)
 		(unit 1)
@@ -144457,7 +144837,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:R")
-		(at 219.71 431.8 0)
+		(at 219.71 430.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -144465,7 +144845,7 @@
 		(dnp no)
 		(uuid "0a1d3c43-7a32-46b8-ba05-52c6c1a7fa0c")
 		(property "Reference" "R56"
-			(at 220.726 430.53 90)
+			(at 219.71 433.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144473,18 +144853,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 222.25 433.5511 0)
+		(property "Value" "1k"
+			(at 220.726 435.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
-			(at 217.932 431.8 90)
+			(at 217.932 430.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144493,7 +144872,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 431.8 0)
+			(at 219.71 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144502,7 +144881,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 219.71 431.8 0)
+			(at 219.71 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146397,14 +146776,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 382.27 425.9311 0)
+		(property "Value" "220"
+			(at 378.714 431.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -146597,7 +146975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "1k"
 			(at 74.168 109.474 90)
 			(effects
 				(font
@@ -146650,7 +147028,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:R")
-		(at 215.9 431.8 0)
+		(at 215.9 430.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -146658,7 +147036,7 @@
 		(dnp no)
 		(uuid "17df7e1c-4f47-4230-8cca-a9213f5cf33e")
 		(property "Reference" "R55"
-			(at 216.916 430.53 90)
+			(at 215.9 433.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146666,18 +147044,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 218.44 433.5511 0)
+		(property "Value" "1k"
+			(at 216.916 435.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
-			(at 214.122 431.8 90)
+			(at 214.122 430.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146686,7 +147063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 431.8 0)
+			(at 215.9 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146695,7 +147072,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 215.9 431.8 0)
+			(at 215.9 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146936,7 +147313,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nF"
 			(at 450.85 234.95 90)
 			(effects
 				(font
@@ -147714,7 +148091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MMU"
 			(at 175.26 245.7449 0)
 			(effects
 				(font
@@ -147963,14 +148340,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 231.14 442.7489 0)
+		(property "Value" "2k2"
+			(at 229.616 445.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -148999,7 +149375,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:R")
-		(at 238.76 431.8 0)
+		(at 238.76 430.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -149007,7 +149383,7 @@
 		(dnp no)
 		(uuid "2177df91-59c4-4052-a328-68f9f5ae29ce")
 		(property "Reference" "R59"
-			(at 239.776 430.53 90)
+			(at 238.76 433.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149015,18 +149391,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 241.3 433.5511 0)
+		(property "Value" "1k"
+			(at 239.776 435.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
-			(at 236.982 431.8 90)
+			(at 236.982 430.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149035,7 +149410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 431.8 0)
+			(at 238.76 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149044,7 +149419,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 238.76 431.8 0)
+			(at 238.76 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149911,7 +150286,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS08_F11"
+		(property "Value" "74LS08"
 			(at 384.556 233.68 0)
 			(effects
 				(font
@@ -150088,7 +150463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS374_H11"
+		(property "Value" "74LS374"
 			(at 352.6633 353.06 0)
 			(effects
 				(font
@@ -150343,8 +150718,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "X19_X20"
-			(at 570.484 347.726 90)
+		(property "Value" "X20"
+			(at 559.562 357.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -150416,14 +150791,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 234.95 442.7489 0)
+		(property "Value" "2k2"
+			(at 233.426 445.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -151804,7 +152178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32_E9"
+		(property "Value" "74LS32"
 			(at 119.888 509.524 90)
 			(effects
 				(font
@@ -152032,7 +152406,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:R")
-		(at 227.33 431.8 0)
+		(at 227.33 430.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -152040,7 +152414,7 @@
 		(dnp no)
 		(uuid "3021c2fc-aabf-470a-87d6-fe539a0adf0f")
 		(property "Reference" "R60"
-			(at 228.346 430.53 90)
+			(at 227.33 433.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152048,18 +152422,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 229.87 433.5511 0)
+		(property "Value" "1k"
+			(at 228.346 435.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
-			(at 225.552 431.8 90)
+			(at 225.552 430.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152068,7 +152441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 431.8 0)
+			(at 227.33 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152077,7 +152450,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 227.33 431.8 0)
+			(at 227.33 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152841,7 +153214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47R"
+		(property "Value" "470R"
 			(at 528.066 293.624 90)
 			(effects
 				(font
@@ -153041,14 +153414,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 332.74 280.1889 0)
+		(property "Value" "1k"
+			(at 332.74 281.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -153800,7 +154172,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:R")
-		(at 234.95 431.8 0)
+		(at 234.95 430.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -153808,7 +154180,7 @@
 		(dnp no)
 		(uuid "34cf77f9-b2a6-4e78-9fc8-9595f64b1186")
 		(property "Reference" "R61"
-			(at 235.966 430.53 90)
+			(at 235.204 433.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153816,18 +154188,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 237.49 433.5511 0)
+		(property "Value" "1k"
+			(at 235.966 435.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
-			(at 233.172 431.8 90)
+			(at 233.172 430.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153836,7 +154207,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 431.8 0)
+			(at 234.95 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153845,7 +154216,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 234.95 431.8 0)
+			(at 234.95 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154278,7 +154649,7 @@
 		(dnp no)
 		(uuid "388e3b39-527d-4830-9857-a6c807c2a82e")
 		(property "Reference" "R65"
-			(at 240.03 442.2176 90)
+			(at 240.03 441.96 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -154286,14 +154657,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 242.57 442.7489 0)
+		(property "Value" "2k2"
+			(at 241.3 445.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -154511,7 +154881,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:R")
-		(at 231.14 431.8 0)
+		(at 231.14 430.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -154519,7 +154889,7 @@
 		(dnp no)
 		(uuid "39526dec-1d5e-44f8-acb9-99434ce65c04")
 		(property "Reference" "R62"
-			(at 232.156 430.53 90)
+			(at 231.14 433.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154527,18 +154897,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 233.68 433.5511 0)
+		(property "Value" "1k"
+			(at 232.156 435.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
-			(at 229.362 431.8 90)
+			(at 229.362 430.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154547,7 +154916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 431.8 0)
+			(at 231.14 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154556,7 +154925,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 231.14 431.8 0)
+			(at 231.14 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154727,7 +155096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LS374"
+		(property "Value" "74LS374"
 			(at 412.75 364.236 0)
 			(effects
 				(font
@@ -155687,7 +156056,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS08_F11"
+		(property "Value" "74LS08"
 			(at 236.982 118.872 0)
 			(effects
 				(font
@@ -156106,7 +156475,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:R")
-		(at 242.57 431.8 0)
+		(at 242.57 430.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -156114,7 +156483,7 @@
 		(dnp no)
 		(uuid "42b3a06c-23e0-447d-90b9-54c7837b8dbb")
 		(property "Reference" "R57"
-			(at 243.586 430.53 90)
+			(at 242.57 433.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156122,18 +156491,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 245.11 433.5511 0)
+		(property "Value" "1k"
+			(at 243.586 435.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
-			(at 240.792 431.8 90)
+			(at 240.792 430.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156142,7 +156510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 431.8 0)
+			(at 242.57 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156151,7 +156519,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 242.57 431.8 0)
+			(at 242.57 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156191,7 +156559,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS365_H13"
+		(property "Value" "74LS365"
 			(at 180.34 436.626 0)
 			(effects
 				(font
@@ -156624,7 +156992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74S109_H1"
+		(property "Value" "74S109"
 			(at 257.556 178.816 0)
 			(effects
 				(font
@@ -156735,7 +157103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS138_E4"
+		(property "Value" "74LS138"
 			(at 439.928 35.814 0)
 			(effects
 				(font
@@ -157427,6 +157795,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 692.15 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b238613-90d7-4e8a-b232-594eeb56f78c")
+		(property "Reference" "#PWR0330"
+			(at 692.15 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 692.15 302.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 692.15 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 692.15 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 692.15 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd2d47a2-0589-4a5b-8bf4-ae4179361ffb")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "#PWR0330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 209.55 549.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -158012,6 +158445,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 692.15 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ed0a30a-2dcb-4f35-b289-5fd93cfb55e7")
+		(property "Reference" "H1"
+			(at 694.69 294.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 694.69 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TK3000:Furo_8mm_5mm"
+			(at 692.15 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 692.15 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 692.15 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4330c1a-4418-44db-b3c3-c2c4735dee01")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-12V")
 		(at 140.97 527.05 0)
 		(unit 1)
@@ -158272,6 +158773,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 722.63 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fe7a1d9-a7ad-4b05-ab9c-0910d433ebd3")
+		(property "Reference" "H5"
+			(at 725.17 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 725.17 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TK3000:Furo_5mm_3mm"
+			(at 722.63 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 722.63 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 722.63 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63c11e98-9dd9-4af1-b6f6-2ebaf8d2c2b1")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TK3000:Capacitor")
 		(at 289.56 495.3 0)
 		(unit 1)
@@ -158494,14 +159062,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 223.52 442.7489 0)
+		(property "Value" "2k2"
+			(at 221.996 446.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -160120,7 +160687,7 @@
 		(dnp no)
 		(uuid "5be38673-6e87-40e1-8dd5-b15cfb188798")
 		(property "Reference" "R74"
-			(at 556.768 153.416 0)
+			(at 556.768 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160128,14 +160695,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 548.64 154.1511 0)
+		(property "Value" "100R"
+			(at 557.53 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -160683,6 +161249,71 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
 					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 745.49 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60abf191-9bdf-4013-a7f6-6975a63035cc")
+		(property "Reference" "#PWR0337"
+			(at 745.49 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 745.49 302.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 745.49 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 745.49 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 745.49 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87e75fcb-28a6-45b5-9430-539e4a3fe094")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "#PWR0337")
 					(unit 1)
 				)
 			)
@@ -161307,7 +161938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS08_F11"
+		(property "Value" "74LS08"
 			(at 118.364 541.274 90)
 			(effects
 				(font
@@ -162039,7 +162670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74S109_H1"
+		(property "Value" "74S109"
 			(at 279.146 178.308 0)
 			(effects
 				(font
@@ -162196,6 +162827,71 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 707.39 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68276d7e-185e-4413-b3cf-ee84ed11de49")
+		(property "Reference" "#PWR0332"
+			(at 707.39 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 707.39 302.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 707.39 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 707.39 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 707.39 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b570ce5e-c1e2-4f02-ad65-c46e2dc0138e")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "#PWR0332")
 					(unit 1)
 				)
 			)
@@ -164274,6 +164970,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 737.87 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "744d014a-5fb2-49a5-80b1-216eb8d3a218")
+		(property "Reference" "H7"
+			(at 740.41 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 740.41 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TK3000:Furo_5mm_3mm"
+			(at 737.87 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 737.87 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 737.87 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff183d08-94f2-4ad2-91ff-4202a77a1dad")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TK3000:SLOT_J1")
 		(at 786.13 86.36 0)
 		(unit 1)
@@ -164926,7 +165689,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PAL16R8_G1"
+		(property "Value" "PAL16R8"
 			(at 230.124 173.228 90)
 			(effects
 				(font
@@ -166959,14 +167722,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 215.9 442.7489 0)
+		(property "Value" "2k2"
+			(at 214.376 445.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -167248,7 +168010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "1k"
 			(at 69.088 109.474 90)
 			(effects
 				(font
@@ -167318,7 +168080,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32_E9"
+		(property "Value" "74LS32"
 			(at 138.684 391.16 0)
 			(effects
 				(font
@@ -167989,14 +168751,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 373.38 425.9311 0)
+		(property "Value" "220"
+			(at 374.65 431.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -168105,6 +168866,73 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
 					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 699.77 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "85a7efe1-b759-4b5b-b31b-e910a42cfdf7")
+		(property "Reference" "H2"
+			(at 702.31 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 702.31 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TK3000:Furo_7mm_4mm"
+			(at 699.77 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 699.77 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 699.77 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c0b036f-2103-4fc2-b619-3915d9081355")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -168834,14 +169662,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 227.33 442.7489 0)
+		(property "Value" "2k2"
+			(at 225.806 446.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -169735,7 +170562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS138_E5"
+		(property "Value" "74LS138"
 			(at 439.928 73.406 0)
 			(effects
 				(font
@@ -171261,18 +172088,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "950d92c0-9563-4e91-ac11-10c2e44f4cf5")
 		(property "Reference" "UH12"
-			(at 349.25 417.83 0)
+			(at 350.012 411.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "74LS259_H12"
-			(at 349.25 420.37 0)
+		(property "Value" "74LS259"
+			(at 348.234 403.352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172584,7 +173410,7 @@
 				)
 			)
 		)
-		(property "Value" "74S02_F2"
+		(property "Value" "74S02"
 			(at 334.01 321.31 0)
 			(effects
 				(font
@@ -173494,7 +174320,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:R")
-		(at 223.52 431.8 0)
+		(at 223.52 430.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -173502,7 +174328,7 @@
 		(dnp no)
 		(uuid "9c4ccf4a-3e87-46e5-95e2-0f21a2790b71")
 		(property "Reference" "R58"
-			(at 224.536 430.53 90)
+			(at 223.52 433.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173510,18 +174336,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 226.06 433.5511 0)
+		(property "Value" "1k"
+			(at 224.536 435.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
-			(at 221.742 431.8 90)
+			(at 221.742 430.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173530,7 +174355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 431.8 0)
+			(at 223.52 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173539,7 +174364,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 223.52 431.8 0)
+			(at 223.52 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174054,7 +174879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74S109_H1"
+		(property "Value" "74S109"
 			(at 97.028 509.016 90)
 			(effects
 				(font
@@ -174891,7 +175716,7 @@
 	)
 	(symbol
 		(lib_id "TK3000:R")
-		(at 237.49 444.5 0)
+		(at 236.22 444.5 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -174900,7 +175725,7 @@
 		(dnp no)
 		(uuid "a3c32518-9e6c-4eca-9179-ea5f0420bdae")
 		(property "Reference" "R67"
-			(at 237.49 442.2064 90)
+			(at 236.22 442.2064 90)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -174908,18 +175733,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 240.03 442.7489 0)
+		(property "Value" "2k2"
+			(at 237.236 445.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
-			(at 235.712 444.5 90)
+			(at 234.442 444.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174928,7 +175752,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 444.5 0)
+			(at 236.22 444.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174937,7 +175761,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 237.49 444.5 0)
+			(at 236.22 444.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -175095,6 +175919,71 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
 					(reference "R107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 730.25 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a46b4098-bc36-44bf-b609-7cf67c07306c")
+		(property "Reference" "#PWR0335"
+			(at 730.25 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 730.25 302.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 730.25 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 730.25 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 730.25 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a2161e2-2cfc-4f4f-aed2-75d1a2a69925")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "#PWR0335")
 					(unit 1)
 				)
 			)
@@ -176640,7 +177529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32_E9"
+		(property "Value" "74LS32"
 			(at 145.288 373.126 0)
 			(effects
 				(font
@@ -176745,7 +177634,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LS251"
+		(property "Value" "74LS251"
 			(at 477.52 154.686 0)
 			(effects
 				(font
@@ -177043,7 +177932,7 @@
 		(dnp no)
 		(uuid "b17f1061-f7df-4f7b-a2c1-9657064748a0")
 		(property "Reference" "R81"
-			(at 348.996 262.89 90)
+			(at 348.996 263.144 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -177052,7 +177941,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 353.06 258.2911 0)
+			(at 351.536 263.144 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -177098,6 +177987,71 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
 					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 753.11 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1ab17bb-bbdf-4faf-bed9-705df13ba1d0")
+		(property "Reference" "#PWR0338"
+			(at 753.11 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 753.11 302.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 753.11 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 753.11 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 753.11 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a23a2c10-57ec-4ad5-8c5a-d015783f85ad")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "#PWR0338")
 					(unit 1)
 				)
 			)
@@ -177304,6 +178258,71 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
 					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 722.63 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4f46adc-5e3b-4834-aaa0-361c2c0f1f97")
+		(property "Reference" "#PWR0334"
+			(at 722.63 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 722.63 302.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 722.63 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 722.63 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 722.63 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49bd9ecf-e8c4-4e46-b281-3b2f0e965be3")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "#PWR0334")
 					(unit 1)
 				)
 			)
@@ -177800,7 +178819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "74S02_F2"
+		(property "Value" "74S02"
 			(at 69.342 76.2 0)
 			(effects
 				(font
@@ -178316,7 +179335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32_E9"
+		(property "Value" "74LS32"
 			(at 133.858 355.854 0)
 			(effects
 				(font
@@ -178891,7 +179910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS245_H10"
+		(property "Value" "74LS245"
 			(at 403.4633 306.07 0)
 			(effects
 				(font
@@ -179321,7 +180340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LS244"
+		(property "Value" "74LS244"
 			(at 115.316 106.934 90)
 			(effects
 				(font
@@ -179624,6 +180643,71 @@
 			(project "TK3000"
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 715.01 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "beefc14c-6493-47ab-b22e-4ccf7f2e48d9")
+		(property "Reference" "#PWR0333"
+			(at 715.01 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 715.01 302.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 715.01 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 715.01 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 715.01 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e7118d2-0b2b-44d8-a4e6-606fbb9ed6d0")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "#PWR0333")
 					(unit 1)
 				)
 			)
@@ -180913,14 +181997,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 369.57 425.9311 0)
+		(property "Value" "220"
+			(at 371.094 431.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -181788,7 +182871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 270.51 371.3211 0)
 			(effects
 				(font
@@ -183022,6 +184105,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 753.11 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d05d84fa-49eb-4275-87a3-45d730d80757")
+		(property "Reference" "H9"
+			(at 755.65 294.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 755.65 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TK3000:Furo_8mm_5mm"
+			(at 753.11 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 753.11 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 753.11 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ece7a3c-c094-4042-9380-88c5d30d917f")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TK3000:Capacitor")
 		(at 321.31 511.81 0)
 		(mirror x)
@@ -183174,7 +184325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS08_F11"
+		(property "Value" "74LS08"
 			(at 442.214 398.526 90)
 			(effects
 				(font
@@ -184163,14 +185314,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 365.76 425.9311 0)
+		(property "Value" "220"
+			(at 367.284 431.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -185005,7 +186155,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74S02_F2"
+		(property "Value" "74S02"
 			(at 56.642 540.766 90)
 			(effects
 				(font
@@ -186112,7 +187262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "1k"
 			(at 64.008 109.22 90)
 			(effects
 				(font
@@ -187877,6 +189027,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 730.25 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1c2e29b-1d3c-42d6-9e86-8b681c68f2ad")
+		(property "Reference" "H6"
+			(at 732.79 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 732.79 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TK3000:Furo_5mm_3mm"
+			(at 730.25 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 730.25 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 730.25 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b11fbf5-76d6-4a61-b2cb-1af186c3854a")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 304.8 153.67 0)
 		(unit 1)
@@ -187960,7 +189177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS08_F11"
+		(property "Value" "74LS08"
 			(at 282.702 345.694 0)
 			(effects
 				(font
@@ -188335,7 +189552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32_E9"
+		(property "Value" "74LS32"
 			(at 367.284 387.35 0)
 			(effects
 				(font
@@ -188418,6 +189635,73 @@
 				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
 					(reference "UE9")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 745.49 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3a87fcc-8b1f-4ce8-9679-60d5c68d7b91")
+		(property "Reference" "H8"
+			(at 748.03 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 748.03 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TK3000:Furo_5mm_3mm"
+			(at 745.49 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 745.49 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 745.49 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "063a68f2-1591-43f0-9523-f7e349217916")
+		)
+		(instances
+			(project "TK3000"
+				(path "/12cba11f-a914-4a6a-8e77-4856f6513f0b"
+					(reference "H8")
+					(unit 1)
 				)
 			)
 		)
@@ -190046,7 +191330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS138_E6"
+		(property "Value" "74LS138"
 			(at 299.3233 57.15 0)
 			(effects
 				(font
@@ -190357,7 +191641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "1k"
 			(at 151.384 68.326 0)
 			(effects
 				(font
@@ -191043,7 +192327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "74S02_F2"
+		(property "Value" "74S02"
 			(at 65.532 99.06 0)
 			(effects
 				(font
@@ -193252,14 +194536,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 219.71 442.7489 0)
+		(property "Value" "2k2"
+			(at 218.186 445.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TK3000:Resistor_P5.08mm_Vertical"
@@ -193534,7 +194817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LS244"
+		(property "Value" "74LS244"
 			(at 115.316 136.144 90)
 			(effects
 				(font
@@ -193802,7 +195085,7 @@
 				)
 			)
 		)
-		(property "Value" "74S02_F2"
+		(property "Value" "74S02"
 			(at 570.23 360.68 0)
 			(effects
 				(font

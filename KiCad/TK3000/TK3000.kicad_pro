@@ -673,7 +673,7 @@
     },
     "net_format_name": "KiCad",
     "page_layout_descr_file": "",
-    "plot_directory": "Microdigital TK3000 iie - Esquema Recriado - ClemarFolly - Rev0beta",
+    "plot_directory": "../../Esquema Novo/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
